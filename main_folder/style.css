@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Open+Sans:ital@1&family=Poppins:wght@100;300;400;500;600&family=Source+Sans+Pro&display=swap');
+
+* {
+    font-family: "Jost", sans-serif;
+    ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #0e0e0e;
+
+}
+
+body {
+    font-family: var(--tp-ff-body);
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--tp-text-body);
+    line-height: 26px;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --main-color: rgba(255, 255, 255, 0.4);
+    --black-color: #0e0e0e;
+    --border: 0.1rem solid rgba(255, 255, 255, 0.4);
+}
+
+.little_bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0e0e0e;
+    height: 3.1rem;
+
+}
+
+.little_bar_title_description {
+    color: rgb(191, 186, 186);
+    font-size: 1.3rem;
+}
+
+.little_bar_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.little_bar_title i {
+    margin-right: 1rem;
+}
+
+.little_bar_title .title_logo {
+    color: gold;
+    font-size: 1.8rem;
+}
+
+.little_bar_setting {
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+
+}
+
+.little_bar_setting button {
+    display: flex;
+    gap: 1.5rem;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    border-right-color: white;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.little_bar_setting i {
+    margin-right: 1rem;
+}
+
+.search_area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 3.3rem;
+}
+
+.search_area_input {
+    display: flex;
+    border: 2.2px solid #0989ff;
+    margin-right: 2rem;
+}
+
+.search_area_item {
+    display: flex;
+}
+
+
+
+.search_area_input input {
+    width: 32rem;
+    height: 5rem;
+    border: none;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    outline: none;
+
+
+}
+
+.search_area_item .user {
+    font-size: 3.3rem;
+    color: rgb(191, 186, 186);
+}
+
+.search_area_item .sign_in {
+    margin-right: 4rem;
+    align-items: center;
+    display: flex;
+    line-height: 1.3;
+}
+
+.search_area_basket {
+    font-size: 2rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1.8rem;
+
+}
+
+.search_area_basket i {
+    font-size: 1.8rem;
+}
+
+.search_area_item .sign_in span {
+    color: rgb(104, 102, 102);
+}
+
+.search_area_item .sign_in a {
+    margin-left: 1rem;
+    color: rgb(191, 186, 186);
+
+}
+
+.search_area_input_item .selected_button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 1.3rem;
+}
+
+.search_area_input_item::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 48%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 20px;
+    background-color: rgba(1, 15, 28, .3);
+}
+
+.search_area_input_item .search_button {
+    height: 5rem;
+    width: 5rem;
+    background-color: #0989ff;
+    cursor: pointer;
+    border: none;
+}
+
+.search_area_input .search_button i {
+    color: white;
+    font-size: 2rem;
+}
+
+.navbar {
+    margin-top: 3.5rem;
+    width: 100%;
+    border: 1px solid rgb(206, 191, 191);
+    height: 4.5rem;
+}
+.navbar_item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar_item_list  {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+
+}
+.navbar_item_list li{
+    cursor: pointer;
+    margin-top: 1rem;
+}
+.contact_item {
+    display: flex;
+    align-items: center;
+}
+.contact_item i{
+    color:#0989ff ;
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+.departments {
+    border: none;
+}
+.departments_button {
+    border: none;
+    font-size: 1.6rem;
+    height: 4.4rem;
+    width: 25rem;
+    background-color: #0989ff;
+    color: white;
+}
+.departments_button .departments_icon {
+margin-left: 7rem;
+}
+.contact_item_description{
+    line-height: 1.3;
+}
+.contact_item_description_paragraph{
+    color:rgb(99, 97, 97) ;
+}
