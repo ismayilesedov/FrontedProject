@@ -478,7 +478,7 @@ html {
     background-color: white;
     width: 15rem;
     margin-top: 3rem;
-    
+
 }
 
 .popular_item .container {
@@ -609,17 +609,48 @@ html {
     margin-top: 5rem;
 }
 
-/* .card {
-    width: 18rem;
-    height: 20rem;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s; 
-     width: 40%;
+.products_icon {
+    float: right;
+    display: inline-block;
+    font-size: 2rem;
+    box-shadow: 0.8px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.card:hover .products_icon {
+    opacity: 1; 
+}
+
+.icon_shipping:hover {
     background-color: #0989ff;
-} */
+    color: white;
+    transform: translateY(-1);
+}
+
+.icon_eyes:hover {
+    background-color: #0989ff;
+    color: white;
+}
+
+.icon_heart:hover {
+    background-color: #0989ff;
+    color: white;
+}
+
+.products_icon div {
+    border: 0.1px solid rgb(193, 185, 185);
+    padding: 0.5rem;
+
+}
+
 .card {
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
+    height: 48rem;
 }
 
 .card:hover {
@@ -754,7 +785,7 @@ html {
     cursor: pointer;
 }
 
-.advertising_again:hover img{
+.advertising_again:hover img {
     transform: scale(1.1);
     transition: 0.9s ease-in-out;
 }
