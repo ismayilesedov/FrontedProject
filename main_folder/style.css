@@ -622,7 +622,7 @@ html {
 }
 
 .card:hover .products_icon {
-    opacity: 1; 
+    opacity: 1;
 }
 
 .icon_shipping:hover {
@@ -739,6 +739,7 @@ html {
 
 .advertising img {
     height: 25rem;
+    border-radius: 5rem;
 }
 
 .advertising_description h1 {
@@ -788,4 +789,81 @@ html {
 .advertising_again:hover img {
     transform: scale(1.1);
     transition: 0.9s ease-in-out;
+}
+
+.today_product {
+    margin-top: 9rem;
+
+}
+
+.today_product .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.today_product h1 {
+    font-size: 3.1rem;
+}
+
+.today_product button {
+    border: none;
+    background-color: #0989ff;
+    color: white;
+    padding: 1.8rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.today_product button:hover {
+    background-color: black;
+    transition: 0.3s;
+}
+
+.today_product_item .container {
+    margin-top: 6rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.today_product_item .card {
+    width: 35rem;
+}
+
+.fixed_part {
+    margin-top: 7rem;
+}
+.fixed_box{
+    width: 40rem;
+    height: 30rem;
+    border: 3px solid #ff3494;
+    border-radius: 2rem;
+}
+.fixed_box ul{
+    margin-left: 3rem;
+    margin-top: 4rem;
+    color: #55585b;
+    font-weight:600;
+    cursor: pointer;
+    display: inline-block;
+}
+.fixed_box ul li{
+    list-style:circle;
+}
+.fixed_box ul li:hover{
+    color: #0989ff;
+}
+.fixed_box ul button{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    margin-top: 3rem;
+    font-weight: bold;
+}
+.fixed_box ul button:hover{
+    color: #0989ff;
+}
+
+.box h2{
+margin-left: 3rem;
+margin-top: 1rem;
 }
