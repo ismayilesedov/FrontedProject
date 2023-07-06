@@ -597,6 +597,12 @@ html {
 
 }
 
+.trending_product .products_type button {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
 .trending_product .products_type h2 {
     cursor: Fo;
 }
@@ -831,39 +837,179 @@ html {
 
 .fixed_part {
     margin-top: 7rem;
+
 }
-.fixed_box{
+
+.fixed_part .container{
+    display: flex;
+}
+.fixed_box {
     width: 40rem;
-    height: 30rem;
+    height: 32rem;
     border: 3px solid #ff3494;
     border-radius: 2rem;
+    position: relative;
 }
-.fixed_box ul{
-    margin-left: 3rem;
+
+.fixed_box img {
+    left: 21.1rem;
+    width: 19rem;
+    position: absolute;
+    bottom: 0.1rem;
+
+}
+
+.fixed_box ul {
+    margin-left: 5rem;
     margin-top: 4rem;
     color: #55585b;
-    font-weight:600;
+    font-weight: 600;
     cursor: pointer;
     display: inline-block;
 }
-.fixed_box ul li{
-    list-style:circle;
+
+.fixed_box ul li {
+    list-style: circle;
 }
-.fixed_box ul li:hover{
+
+.fixed_box ul li:hover {
     color: #0989ff;
 }
-.fixed_box ul button{
+
+.fixed_box ul button {
     border: none;
     background-color: white;
     cursor: pointer;
     margin-top: 3rem;
     font-weight: bold;
 }
-.fixed_box ul button:hover{
+
+.fixed_box ul button:hover {
     color: #0989ff;
 }
 
-.box h2{
-margin-left: 3rem;
-margin-top: 1rem;
+.box h2 {
+    height: 3rem;
+    margin-left: 4rem;
+    margin-top: 3rem;
+}
+
+
+.fixed_slider img {
+    width: 40rem;
+    margin-top: 2rem;
+    border-radius: 2rem;
+
+}
+
+.fixed_slider2 img {
+    width: 40rem;
+    margin-top: 2rem;
+    border-radius: 2rem;
+}
+
+.fixed_slider_description {
+    width: 20rem;
+}
+.fixed_slider_all{
+    margin-top: 45rem;
+    margin-right: 30rem;
+}
+.fixed_slider_description2 {
+    width: 18rem;
+}
+
+.fixed_slider {
+    position: relative;
+}
+
+.fixed_slider_description {
+    position: absolute;
+    bottom: 8rem;
+    left: 3rem;
+    color: white;
+
+}
+.fixed_slider .change_button1_slider{
+    position: absolute;
+    width: 1rem;
+    border: none;
+    cursor: pointer;
+    height: 1rem;
+    border-radius: 5rem;
+    top: 18rem;
+    left: 38rem;
+}
+.fixed_slider .change_button2_slider{
+    position: absolute;
+    border: none;
+    border-radius: 5rem;
+    width: 1rem;
+    cursor: pointer;
+    height: 1rem;
+    top: 16rem;
+    left: 38rem;
+}
+.fixed_slider2 {
+    position: relative;
+}
+.fixed_slider2 .change_button3_slider{
+    position: absolute;
+    width: 1rem;
+    border: none;
+    cursor: pointer;
+    height: 1rem;
+    border-radius: 5rem;
+    top: 18rem;
+    left: 38rem;
+}
+.fixed_slider2 .change_button4_slider{
+    position: absolute;
+    border: none;
+    border-radius: 5rem;
+    width: 1rem;
+    cursor: pointer;
+    height: 1rem;
+    top: 16rem;
+    left: 38rem;
+}
+.fixed_slider2 {
+    position: relative;
+}
+
+.fixed_slider_description2 {
+    position: absolute;
+    bottom: 7rem;
+    left: 4rem;
+    color: white;
+
+}
+.fixed_slider2_none{
+    display: none;
+}
+.mystyle {
+    display: none;
+}
+.featured_card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    margin-top: 3rem;
+}
+.topSellers_card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    margin-top: 3rem;
+}
+.featuredblock {
+    display: none;
+}
+
+.TopSellers {
+    display: none;
+}
+
+.card_fixed{
+    width: 30rem;
 }
