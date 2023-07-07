@@ -111,6 +111,7 @@ html {
     display: flex;
     border: 2.2px solid #0989ff;
     margin-right: 2rem;
+
 }
 
 .search_area_item {
@@ -128,6 +129,11 @@ html {
     outline: none;
 
 
+
+}
+
+.search_area_input input:focus::placeholder {
+    color: transparent;
 }
 
 .search_area_item .user {
@@ -153,6 +159,17 @@ html {
 
 .search_area_basket i {
     font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.search_area_basket i:hover {
+    color: #0989ff;
+    transition: 0.5s;
+}
+
+.search_area_basket_arrow:hover {
+    color: #0989ff;
+    transition: 0.5s;
 }
 
 .search_area_item .sign_in span {
@@ -232,6 +249,7 @@ html {
     color: #0989ff;
     font-size: 2rem;
     margin-right: 1rem;
+
 }
 
 .departments {
@@ -258,6 +276,12 @@ html {
 
 .contact_item_description {
     line-height: 1.3;
+    cursor: pointer;
+}
+
+.contact_item_description:hover {
+    color: #0989ff;
+    transition: 0.5s;
 }
 
 .contact_item_description_paragraph {
@@ -332,6 +356,33 @@ html {
     font-weight: bold;
     width: 15rem;
     margin-top: 3rem;
+    cursor: pointer;
+}
+
+.slide_section_description button:hover {
+    background-color: rgb(18, 76, 85);
+    color: white;
+    transition: 0.5s;
+}
+
+.slide_section_description2 button {
+    cursor: pointer;
+}
+
+.slide_section_description2 button:hover {
+    background-color: rgb(18, 76, 85);
+    color: white;
+    transition: 0.5s;
+}
+
+.slide_section_description3 button {
+    cursor: pointer;
+}
+
+.slide_section_description3 button:hover {
+    background-color: rgb(18, 76, 85);
+    color: white;
+    transition: 0.5s;
 }
 
 
@@ -774,6 +825,8 @@ html {
 
 .advertising_again {
     position: relative;
+    overflow: hidden;
+
 }
 
 .advertising_again_description {
@@ -786,7 +839,7 @@ html {
 .advertising_again_description button {
     border: none;
     font-weight: bold;
-    background-color: #3498db;
+    background-color: #90DAFF;
     margin-top: 2rem;
     line-height: 1;
     cursor: pointer;
@@ -850,7 +903,11 @@ html {
     border: 3px solid #ff3494;
     border-radius: 2rem;
     position: relative;
+    position: sticky;
+    top: 50px !important;
+    left: 0;
 }
+
 
 .fixed_box img {
     left: 18rem;
@@ -932,38 +989,211 @@ html {
 
 .card_fixed2 .container {
     display: flex;
-    margin-left: 53rem;
-    gap: 1.5rem;
-    margin-top: 3rem;
+    gap: 5rem;
+    margin-top: 5rem;
 }
-.slick_blue{
+
+.slick_blue {
     margin-top: 10rem;
 }
-.slick_blue .slide_section{
+
+.slick_blue .slide_section {
     background-color: #0989ff;
 
 }
-.slick_blue .slide_section2{
+
+.slick_blue .slide_section2 {
     background-color: #0989ff;
 }
-.slick_blue .slide_section{
+
+.slick_blue .slide_section {
     background-color: #0989ff;
 }
-.slick_blue button{
+
+.slick_blue button {
     cursor: pointer;
     background-color: #0e0e0e;
     color: white;
 }
-.slick_blue button:hover{
+
+.slick_blue button:hover {
     background-color: white;
     color: black;
 }
-.new_arrivals h1{
+
+.new_arrivals h1 {
     font-size: 4rem;
     margin-top: 8rem;
 }
-.new_arrivals .new_arrivals_item{
-   display: grid;
-   grid-template-columns: repeat(4,1fr);
-   margin-top: 3rem;
+
+.new_arrivals_item {
+    margin-top: 8rem;
+}
+
+.card.slick-slide {
+    width: 28rem !important;
+    margin-left: 1rem;
+}
+
+.slick-next {
+    right: -30px;
+}
+
+.slick-prev,
+.slick-next {
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 5;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: gray;
+    border: 1px solid grey;
+    border-radius: 50%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: #0989ff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.row {
+    margin-top: 5rem;
+}
+
+.discount_products {
+    margin-top: 9rem;
+
+}
+
+.discount_products_item img {
+    width: 14rem;
+    height: 14rem;
+    border-radius: 1rem;
+    background-color: rgb(228, 226, 226);
+
+}
+
+.discount_all_products .discount_products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.discount_products_item {
+    align-items: center;
+}
+
+.discount_products_item_card {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.discount_products_item h1 {
+    margin-top: 2rem;
+
+}
+
+.discount_products_item_card h4:hover {
+    color: #0989ff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.discount_products_item_card p:hover {
+    color: #0989ff;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.discount_products_item_card_description {
+    border-bottom: 1px solid grey;
+}
+
+.discount_products_item_card:hover img {
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+}
+
+.latest_news {
+    margin-top: 10rem;
+}
+
+.latest_news .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.latest_news h1 {
+    font-size: 3.5rem;
+}
+
+.latest_news_button button {
+    cursor: pointer;
+    background-color: #0989ff;
+    border: none;
+    color: white;
+    width: 12rem;
+    height: 4rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+.latest_news_button button:hover {
+    background-color: #0e0e0e;
+    transition: 0.5s;
+}
+
+.latest_news_card {
+    margin-top: 5rem;
+}
+
+.latest_news_card p {
+    color: rgb(114, 111, 111);
+    font-weight: bold;
+}
+
+.latest_news_card h4 {
+    color: rgb(107, 104, 104);
+    font-weight: 200;
+    margin-top: 1rem;
+}
+
+.latest_news_card button {
+    cursor: pointer;
+    background-color: #0989ff;
+    border: none;
+    color: white;
+    width: 12rem;
+    height: 4rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.latest_news_card button:hover {
+    background-color: #0e0e0e;
+    transition: 0.5s;
+}
+
+.latest_news_card img {
+    border-radius: 2rem;
+}
+
+.latest_news_card .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
