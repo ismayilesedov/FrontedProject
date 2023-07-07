@@ -1158,9 +1158,10 @@ html {
 
 .latest_news_card {
     margin-top: 5rem;
+
 }
 
-.latest_news_card p {
+.latest_news_card_item_title {
     color: rgb(114, 111, 111);
     font-weight: bold;
 }
@@ -1191,9 +1192,251 @@ html {
 
 .latest_news_card img {
     border-radius: 2rem;
+    cursor: pointer;
 }
 
 .latest_news_card .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+.time_effect1 {
+    position: relative;
+}
+
+.time1 {
+    position: absolute;
+    top: 0.1rem;
+    left: 0.1rem;
+    padding: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: #0e0e0e;
+    color: white;
+    gap: 2rem;
+    border-top-left-radius: 2rem;
+}
+
+.time_effect2 {
+    position: relative;
+}
+
+.time2 {
+    position: absolute;
+    top: 0.1rem;
+    left: 0.1rem;
+    border-top-left-radius: 2rem;
+    padding: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: #0e0e0e;
+    color: white;
+    gap: 2rem;
+}
+
+.time_effect3 {
+    position: relative;
+}
+
+.time3 {
+    position: absolute;
+    top: 0.1rem;
+    left: 0.1rem;
+    border-top-left-radius: 2rem;
+    padding: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: #0e0e0e;
+    color: white;
+    gap: 2rem;
+}
+
+.photo_hover_instagram_item {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.photo_hover_instagram {
+    margin-top: 9rem;
+}
+
+.photo_hover_instagram_item img {
+    border-radius: 3rem;
+    width: 23.2rem;
+    padding: 2rem;
+}
+
+.photo_hover_item {
+    position: relative;
+}
+
+.photo_hover {
+    position: absolute;
+    width: 19.2rem;
+    border-radius: 2rem;
+    text-align: center;
+    height: 23rem;
+    top: 1rem;
+    left: 2rem;
+    color: transparent;
+    display: none;
+
+}
+
+.photo_hover_item i {
+    font-size: 2.5rem;
+    margin-top: 10rem;
+    color: white;
+    border: 1px solid white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.photo_hover_item i:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.photo_hover_item:hover .photo_hover {
+    display: block;
+    transition: 0.5s;
+}
+
+.photo_hover_item:hover img {
+    opacity: 0.7;
+    transition: 0.6s;
+}
+
+.footer_search {
+    margin-top: 9rem;
+}
+
+.footer_search_box .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_search {
+    width: 100%;
+    height: 20rem;
+    background-color: #0989ff;
+}
+
+.footer_search_box_title {
+    margin-top: 8rem;
+}
+
+.footer_search_box_input {
+    margin-top: 8rem;
+}
+
+.footer_search_box_input input {
+    width: 38rem;
+    height: 6rem;
+    border-radius: 1rem;
+    border-right: none;
+    border: none;
+}
+
+.footer_search_box_title h1 {
+    font-size: 4rem;
+    color: white;
+}
+
+.footer_search_box_title h3 {
+    color: white;
+}
+
+.subscribe_button {
+    width: 8rem;
+    height: 5.99rem;
+    cursor: pointer;
+    border: none;
+    background-color: #0e0e0e;
+    color: white;
+
+
+}
+.footer_search_box_input input:focus::placeholder{
+    color: transparent;
+}
+.footer_search_box_input {
+    position: relative;
+    z-index: 2;
+}
+
+.subscribe_button {
+    position: absolute;
+    right: 0.01rem;
+}
+footer{
+    margin-top: 13rem;
+}
+footer .container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.footer_media i{
+    font-size: 2rem;
+    padding: 1rem;
+    margin-top: 3rem;
+    color: rgb(204, 202, 202);
+    cursor: pointer;
+  border: 1px solid rgb(236, 232, 232);
+}
+.footer_media i:hover{
+    background-color: #0989ff;
+    color: white;
+    transition: 0.5s;
+}
+
+.footer_account{
+    text-align: center;
+}
+.footer_account li{
+    cursor: pointer;
+    color: rgb(106, 103, 103);
+}
+.footer_account li:hover{
+    color: #0989ff;
+}
+.footer_information{
+    text-align: center;
+}
+.footer_information li{
+    cursor: pointer;
+    color: rgb(106, 103, 103);
+}
+.footer_information li:hover{
+   color: #0989ff;
+}
+.special_footer{
+    margin-top: 2rem;
+    
+}
+.special_footer h4{
+    cursor: pointer;
+}
+.special_footer h4:hover{
+    color: #0989ff;
+    transition: 0.5s;
+}
+.footer_contact h2:hover{
+    color: #0989ff;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.finish{
+    margin-top: 15rem;
+}
+.finish_item{
+    display: flex;
+    justify-content: space-between;
+}
+.finish_item span{
+    color: #0989ff;
+    cursor: pointer;
 }
