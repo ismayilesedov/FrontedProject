@@ -67,4 +67,57 @@ function removeFeature() {
 
 
 
+let homeItem = document.querySelector(".home");
+let itemBox = document.querySelector(".zindex_item");
+
+let shopDeatilBox = document.querySelector(".show_detail");
+let shopDetailItem = document.querySelector(".shop");
+
+let productItem = document.querySelector("#product");
+let productBox = document.querySelector(".product_detail");
+
+let blogItem = document.querySelector(".blog")
+let blogBox = document.querySelector(".blog_detail")
+
+
+function all(item, boxes) {
+    item.addEventListener("mouseover", show)
+
+    item.addEventListener("mouseout", none)
+
+
+    function show() {
+        boxes.style.display = "flex";
+    }
+
+    function none() {
+        boxes.style.display = "none";
+    }
+
+}
+
+all(homeItem, itemBox);
+all(productItem, productBox);
+all(shopDetailItem, shopDeatilBox);
+all(blogItem, blogBox)
+
+let selectBtn = document.querySelector(".selected_button");
+let selectBox = document.querySelector(".select_catagory");
+selectBtn.addEventListener("click", showSelected);
+
+
+function showSelected() {
+    selectBox.classList.toggle("selectShow")
+}
+
+
+let languageBtn = document.querySelector(".language_btn")
+let languageCatagory = document.querySelector(".language_catagory")
+languageBtn.addEventListener("click", languageShow);
+
+
+function languageShow() {
+    languageCatagory.style.display = "block"
+}
+
 

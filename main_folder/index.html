@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="/slick-1.8.1/slick/slick.css">
     <link rel="stylesheet" href="/slick-1.8.1/slick/slick.min.js">
     <link rel="stylesheet" href="/slick-1.8.1/slick/slick-theme.css">
@@ -15,15 +14,12 @@
     <link rel="icon" type="image/png" href="/Photo/small_logo.png" />
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
-
     <title>Shofy</title>
 </head>
 
+
 <body>
-
-
     <header>
-
         <div class="little_bar">
             <div class="container">
                 <div class="little_bar_title">
@@ -32,11 +28,19 @@
                         FREE Express Shipping On Orders $570+
                     </h4>
                     <div class="little_bar_setting">
-                        <button>
+                        <button class="language_btn">
                             <h4>
                                 English
-                                <i class="fa-solid fa-chevron-down "></i>
                             </h4>
+                            <i class="fa-solid fa-chevron-down "></i>
+                            <div class="language_catagory d-none">
+                                <ul>
+                                    <li style="font-weight: bold;">Spanish</li>
+                                    <li>Russian</li>
+                                    <li>Portuguese</li>
+                                </ul>
+                            </div>
+
 
                         </button>
 
@@ -76,7 +80,17 @@
 
                             Select Category
                             <i class="fa-solid fa-chevron-down selected_button_item "></i>
+                            <div class="select_catagory">
+                                <ul>
+                                    <li style="font-weight: bold;">Select Category</li>
+                                    <li>Electronics</li>
+                                    <li>Fashion</li>
+                                    <li>Beauty</li>
+                                    <li>Jewelry</li>
+                                </ul>
+                            </div>
                         </button>
+
 
                         <button class="search_button"><i class="fa-solid fa-magnifying-glass"></i></button>
                     </div>
@@ -113,26 +127,27 @@
                             All Departments
                             <i class="fa-solid fa-chevron-down departments_icon "></i>
                         </button>
-                        <li>
+                        <li class="home">
                             Home
                             <i class="fa-solid fa-chevron-down "></i>
+
                         </li>
-                        <li>
+                        <li id="product">
                             Products
                             <i class="fa-solid fa-chevron-down "></i>
                         </li>
-                        <li>
+                        <li class="shop">
                             Shop
                             <i class="fa-solid fa-chevron-down "></i>
                         </li>
-                        <li>
+                        <li class="coupons">
                             Coupons
                         </li>
-                        <li>
+                        <li class="blog">
                             Blog
                             <i class="fa-solid fa-chevron-down "></i>
                         </li>
-                        <li>
+                        <li class="contact">
                             Contact
                         </li>
 
@@ -150,6 +165,98 @@
         </div>
     </header>
     <main>
+        <div class="zindex">
+            <div class="container zindex_item ">
+                <div class="home_item">
+                    <div class="home_item_image">
+                        <img src="/Photo/image (14).webp" alt="">
+                        <h2>Electronics</h2>
+                    </div>
+                    <div class="home_item_image">
+                        <img src="/Photo/image (55).webp" alt="">
+                        <h2>Fashion</h2>
+                    </div>
+                    <div class="home_item_image">
+                        <img src="/Photo/image (17).webp" alt="">
+                        <h2>Beauty</h2>
+                    </div>
+                    <div class="home_item_image">
+                        <img src="/Photo/image (54).webp" alt="">
+                        <h2>Fashion</h2>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="container product_detail">
+                <div class="product_detail_item_description">
+                    <div class="shop_page">
+                        <ul>
+                            <li class="title_list_shop">Shop Pages</li>
+                            <li>Only Categories</li>
+                            <li>Shop Grid with Sideber</li>
+                            <li>Product Details</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product_page_item_description">
+                    <div class="product_page">
+                        <ul>
+                            <li class="title_list_product">Products</li>
+                            <li>Product Simple</li>
+                            <li>With Video</li>
+                            <li>With Countdown Timer</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ecommerce_page_item_description">
+                    <div class="ecommerce_page">
+                        <ul>
+                            <li class="title_list_ecommerce">Shopping Cart</li>
+                            <li>Compare</li>
+                            <li>Wishlist</li>
+                            <li>Checkout</li>
+                            <li>My account</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="more_page_item_description">
+                    <div class="more_page">
+                        <ul>
+                            <li class="title_list_more"> Login</li>
+                            <li>Register</li>
+                            <li>Forgot Password</li>
+                            <li>404 Error</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="show_detail">
+            <div class="show_detail_item">
+                <ul>
+                    <li>Shop</li>
+                    <li>Right Sidebar</li>
+                    <li>Right Sidebar</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="blog_detail">
+            <div class="blog_detail_item">
+                <ul>
+                    <li>Blog Standard</li>
+                    <li>Blog Grid</li>
+                    <li>Blog List</li>
+                    <li>Blog Details</li>
+                    <li>Blog Details Full Width</li>
+                </ul>
+            </div>
+        </div>
+
         <div class="one-time">
 
 
@@ -221,6 +328,7 @@
                 </div>
             </div>
 
+        </div>
         </div>
 
 
@@ -1827,7 +1935,8 @@
                     <img src="/Photo/image (51).webp" alt="">
                     <h3>The Modern Art Clay Ceramics.</h3>
                     <p class="latest_news_card_item_title">Tablet,Tablet</p>
-                    <h4>The world is an amazing place providing an incredible <br> asssortment of interesting locations
+                    <h4>The world is an amazing place providing an incredible <br> asssortment of interesting
+                        locations
                         across </h4>
                     <button>Read more <i class="fa-solid fa-arrow-right"></i></button>
                     <p class="time1">14 January,2023</p>
@@ -1836,7 +1945,8 @@
                     <img src="/Photo/blog-2.webp" alt="">
                     <h3>How clothes are linked to climate.</h3>
                     <p class="latest_news_card_item_title"> Tablet,Tablet</p>
-                    <h4>The world is an amazing place providing an incredible <br> asssortment of interesting locations
+                    <h4>The world is an amazing place providing an incredible <br> asssortment of interesting
+                        locations
                         across </h4>
                     <button>Read more <i class="fa-solid fa-arrow-right"></i></button>
                     <p class="time2">18 February,2023</p>
@@ -1845,7 +1955,8 @@
                     <img src="/Photo/blog-3.webp" alt="">
                     <h3>The Sound of Fashion:Malcolm.</h3>
                     <p class="latest_news_card_item_title">Tablet,Tablet</p>
-                    <h4>The world is an amazing place providing an incredible <br> asssortment of interesting locations
+                    <h4>The world is an amazing place providing an incredible <br> asssortment of interesting
+                        locations
                         across </h4>
                     <button>Read more <i class="fa-solid fa-arrow-right"></i></button>
                     <p class="time3">20 January,2023</p>
@@ -1973,14 +2084,14 @@
             <div class="container">
                 <div class="finish_item">
                     <div class="finish_item_template">
-                        <p>© 2023 All Rights Reserved |  js Template by <span>ThemePure.</span> </p>
+                        <p>© 2023 All Rights Reserved | js Template by <span>ThemePure.</span> </p>
                     </div>
                     <div class="finish_photo">
                         <img src="/Photo/image (23).webp" alt="">
                     </div>
                 </div>
             </div>
-          
+
         </section>
 
     </main>
@@ -2014,7 +2125,7 @@
 
 
 
-    <script src="slider.js"></script>
+    <script src="/main_folder/slider.js"></script>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
