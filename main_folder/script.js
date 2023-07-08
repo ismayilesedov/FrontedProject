@@ -79,6 +79,14 @@ let productBox = document.querySelector(".product_detail");
 let blogItem = document.querySelector(".blog")
 let blogBox = document.querySelector(".blog_detail")
 
+let languageBtn = document.querySelector(".language_btn")
+let languageCatagory = document.querySelector(".language_catagory")
+
+let usdBox=document.querySelector(".usd_catagory");
+let usdBtn=document.querySelector(".usd_btn");
+
+let settingBox=document.querySelector(".setting_catagory");
+let settingBtn=document.querySelector(".setting_btn")
 
 function all(item, boxes) {
     item.addEventListener("mouseover", show)
@@ -100,6 +108,11 @@ all(homeItem, itemBox);
 all(productItem, productBox);
 all(shopDetailItem, shopDeatilBox);
 all(blogItem, blogBox)
+all(languageBtn,languageCatagory);
+all(usdBtn,usdBox)
+all(settingBtn,settingBox)
+
+
 
 let selectBtn = document.querySelector(".selected_button");
 let selectBox = document.querySelector(".select_catagory");
@@ -111,13 +124,10 @@ function showSelected() {
 }
 
 
-let languageBtn = document.querySelector(".language_btn")
-let languageCatagory = document.querySelector(".language_catagory")
-languageBtn.addEventListener("click", languageShow);
 
 
-function languageShow() {
-    languageCatagory.style.display = "block"
-}
+
+
+
 
 
