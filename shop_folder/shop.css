@@ -8,6 +8,7 @@
 .little_title{
     margin-top: 2rem;
     display: flex;
+  
 }
 .little_title p{
     font-size: 1.5rem;
@@ -19,7 +20,7 @@
 }
 
 
-.range-filter {
+/* .range-filter {
     padding-top:10px;
     width:240px;
     margin-bottom:10px;
@@ -71,14 +72,15 @@
     color:#283136;
     border-radius:0.5rem;
     color:white;
-}
+} */
 
 .min-price {
     margin-right:14px;
 }
 .filter_section .container{
     display: flex;
-    /* justify-content: space-between; */
+ 
+    margin-top: 8rem;
 }
 .range-filter{
     display: flex;
@@ -102,7 +104,91 @@
     border: 1px solid rgb(191, 186, 186);
 }
 .filter_description p{
-    font-size: 1.4rem;
-    margin-top: 1rem;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
     margin-left: 1rem;
+    color: #8f8f8f;
+}
+.filter_description i:hover{
+    color: #0989ff;
+    transition: 0.5s;
+    cursor: pointer;
+    border: 1px solid #0989ff;
+}
+.filter_search button{
+    border: none;
+    width: 12rem;
+    height: 3rem;
+ cursor: pointer;
+ font-weight: bold;
+ margin-right: 1rem;
+ 
+}
+.filter_search button:hover{
+    color: #0989ff;
+    transition: 0.5s;
+}
+.product_status{
+ display: block;
+ margin-top: 2rem;
+}
+.product_status h3{
+    border-bottom: 1px solid black;
+    display: inline-block;
+    font-size: 2rem;
+}
+.input_all_checkbox{
+    margin-top: 2rem;
+}
+.input_all_checkbox label{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.categories{
+    margin-top: 7rem;
+}
+.categories h3{
+    border-bottom: 1px solid black;
+    display: inline-block;
+    font-size: 2rem;
+}
+.input_all_categories{
+    margin-top: 2rem;
+    overflow-y: scroll;
+    width: 20rem;
+    height: 20rem;
+    
+}
+.filter_color{
+    margin-top: 8rem;
+}
+.input_all_filter_color{
+    margin-top: 2rem;
+    overflow-y: scroll;
+    width: 20rem;
+    height: 20rem;
+}
+.input_filter_color label{
+    font-size: 1.3rem;
+    font-weight: 500;
+    cursor: pointer;
+    line-height: 3;
+    letter-spacing: 0.1rem;
+    margin-left: 0.7rem;
+}
+.input_filter_color label:hover{
+    color: #0989ff;
+    transition: 0.5s;
+}
+.input_all_categories label{
+    font-size: 1.3rem;
+    font-weight: 500;
+    cursor: pointer;
+    line-height: 3;
+    letter-spacing: 0.1rem;
+    margin-left: 0.7rem;
+}
+.input_all_categories label:hover{
+    color: #0989ff;
+    transition: 0.5s;
 }
