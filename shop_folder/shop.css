@@ -1,174 +1,150 @@
-.shop_title{
+.shop_title {
     font-size: 4rem;
     font-weight: 200;
 }
-.shop_section_title{
+
+.shop_section_title {
     margin-top: 15rem;
 }
-.little_title{
+
+.little_title {
     margin-top: 2rem;
     display: flex;
-  
+
 }
-.little_title p{
+
+.little_title p {
     font-size: 1.5rem;
     cursor: pointer;
     color: rgb(168, 168, 168);
 }
-.little_title p:hover{
+
+.little_title p:hover {
     color: #0989ff;
 }
 
-
-/* .range-filter {
-    padding-top:10px;
-    width:240px;
-    margin-bottom:10px;
-}
-.range-controls {
-    position:relative;
-    height:8rem;
-    margin-bottom:1.5rem;
-    padding:0 3rem;
-    background:#0989ff;
-    border-radius:0.5rem;
-    overflow:hidden;
-}
-.scale {
-    margin-top:3.9rem;
-    height:0.2rem;
-    background:#d7dcde;
-}
-.bar{
-    height:0.2rem;
-    background:#00ca74;
-}
-.toggle {
-    position:absolute;
-    top:3rem;
-    left:3rem;
-    width:0.4rem;
-    height:0.4rem;
-    border:0.8rem solid white;
-    background:#ababab;
-    cursor:pointer;
-    border-radius:50%;
-}
-.min-toggle {
-    left:7rem;
-}
-.max-toggle {
-    left:16.5rem;
-}
-.price-controls input{
-    width:5.5rem;
-    padding:0.5rem 8;
-    margin-left:1rem;
-    border:none;
-    background:#0989ff;
-    font-size:1.4rem;
-    font-family:"Tahoma", sans-serif;
-    text-align:center;
-    color:#283136;
-    border-radius:0.5rem;
-    color:white;
-} */
-
-.min-price {
-    margin-right:14px;
-}
-.filter_section .container{
+.filter_section .container {
     display: flex;
- 
+
     margin-top: 8rem;
 }
-.range-filter{
+
+.range-filter {
     display: flex;
 }
-.filter_section{
+
+.filter_section {
     position: relative;
 }
-.filter_search{
+
+.filter_search {
     position: absolute;
     right: 15rem;
     top: 1.5rem;
 }
-.filter_description{
+.filter_description {
     display: flex;
 }
-.filter_description i{
+.input_range{
+    margin-left: 2.3rem;
+}
+.input_range p{
+    font-size: 300;
+    font-size: 2rem;
+}
+.filter_description i {
     font-size: 2.1rem;
-  width: 4rem;
-  height: 4rem;
-  padding: 1rem;
+    width: 4rem;
+    height: 4rem;
+    padding: 1rem;
     border: 1px solid rgb(191, 186, 186);
 }
-.filter_description p{
+
+.filter_description p {
     font-size: 1.5rem;
     margin-top: 0.5rem;
     margin-left: 1rem;
     color: #8f8f8f;
 }
-.filter_description i:hover{
+
+.filter_description i:hover {
     color: #0989ff;
     transition: 0.5s;
     cursor: pointer;
     border: 1px solid #0989ff;
 }
-.filter_search button{
+
+.filter_search button {
     border: none;
-    width: 12rem;
-    height: 3rem;
- cursor: pointer;
- font-weight: bold;
- margin-right: 1rem;
- 
+    width: 18rem;
+    height: 4rem;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 1rem;
+
 }
-.filter_search button:hover{
-    color: #0989ff;
+
+.filter_search button:hover {
+    color: white;
+    background-color: black;
     transition: 0.5s;
 }
-.product_status{
- display: block;
- margin-top: 2rem;
+
+.product_status {
+    display: block;
+    margin-top: 2rem;
 }
-.product_status h3{
+
+.product_status h3 {
     border-bottom: 1px solid black;
     display: inline-block;
     font-size: 2rem;
 }
-.input_all_checkbox{
+
+.input_all_checkbox {
     margin-top: 2rem;
 }
-.input_all_checkbox label{
+
+.input_all_checkbox label {
     font-size: 1.5rem;
     font-weight: 500;
 }
-.categories{
+
+.categories {
     margin-top: 7rem;
 }
-.categories h3{
+
+.categories h3 {
     border-bottom: 1px solid black;
     display: inline-block;
     font-size: 2rem;
 }
-.input_all_categories{
+
+.input_all_categories {
     margin-top: 2rem;
     overflow-y: scroll;
     width: 20rem;
     height: 20rem;
-    
+
 }
-.filter_color{
+
+.filter_color {
     margin-top: 8rem;
 }
-.input_all_filter_color{
+
+.filter_color h3 {
+    border-bottom: 1px solid black;
+    display: inline-block;
+}
+
+.input_all_filter_color {
     margin-top: 2rem;
     overflow-y: scroll;
     width: 20rem;
     height: 20rem;
 }
-.input_filter_color label{
+
+.input_filter_color label {
     font-size: 1.3rem;
     font-weight: 500;
     cursor: pointer;
@@ -176,11 +152,13 @@
     letter-spacing: 0.1rem;
     margin-left: 0.7rem;
 }
-.input_filter_color label:hover{
+
+.input_filter_color label:hover {
     color: #0989ff;
     transition: 0.5s;
 }
-.input_all_categories label{
+
+.input_all_categories label {
     font-size: 1.3rem;
     font-weight: 500;
     cursor: pointer;
@@ -188,7 +166,134 @@
     letter-spacing: 0.1rem;
     margin-left: 0.7rem;
 }
-.input_all_categories label:hover{
+
+.input_all_categories label:hover {
     color: #0989ff;
+    transition: 0.5s;
+}
+
+.input_filter_color {
+    display: flex;
+    align-items: center;
+}
+
+.color {
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+}
+
+.discount_products_item_card {
+    display: flex;
+    align-items: center;
+    gap: rem;
+    margin-top: 3rem;
+}
+
+.discount_products_item_card img {
+    width: 8rem;
+    height: 8rem;
+}
+
+.discount_products_item_card p:hover {
+    color: #0989ff;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.rated_products {
+    margin-top: 8rem;
+}
+.rated_products h3{
+    border-bottom: 1px solid black;
+    display: inline-block;
+}
+
+.discount_products_item_card_description i {
+    color: gold;
+}
+
+.discount_products_item_card h5 {
+    cursor: pointer;
+}
+
+.discount_products_item_card h5:hover {
+    color: #0989ff;
+    transition: 0.5s;
+}
+
+.discount_products_item_card img {
+    cursor: pointer;
+}
+
+.popular_brands {
+    margin-top: 7rem;
+}
+
+.brand_logo {
+    margin-top: 5rem;
+}
+
+.brand_logo2 {
+    margin-top: 5rem;
+}
+footer .container{
+    margin-top: 25rem;
+}
+.brand_logo3 {
+    margin-top: 5rem;
+}
+
+.brand_logo img {
+   
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.brand_logo2 img {
+   
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.brand_logo3 img {
+    
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.popular_brands h3 {
+    border-bottom: 1px solid black;
+    display: inline-block;
+}
+.shop_item_card{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 5rem;
+   margin-top: 8rem;
+}
+.all_shop_item{
+    display: flex;
+    
+}
+.reset_filter{
+    margin-top: 7rem;
+}
+.reset_filter h3{
+    display: inline-block;
+    border-bottom: 1px solid black;
+}
+.reset_filter button{
+    width: 14rem;
+    height: 3.5rem;
+    margin-top: 2rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.reset_filter button:hover{
+    background-color: white;
+    color: black;
     transition: 0.5s;
 }

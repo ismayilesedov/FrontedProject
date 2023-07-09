@@ -7,10 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/shop_folder/shop.css">
     <link rel="stylesheet" href="/common_folder/common.css">
-
+    <link rel="stylesheet" href="/main_folder/style.css">
+    <link rel="icon" type="image/png" href="/Photo/small_logo.png" />
     <script src="/shop_folder/shop.js" defer></script>
 
-    <title>Document</title>
+    <title>Shopy</title>
 </head>
 
 <body>
@@ -84,7 +85,8 @@
             <div class="search_area">
                 <div data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine"
                     class="search_area_logo">
-                    <img src="/Photo/logo.414c93a2.svg" alt="">
+                    <a href="/main_folder/index.html">  <img src="/Photo/logo.414c93a2.svg" alt=""></a>
+                  
                 </div>
                 <div class="search_area_input">
                     <input type="text" placeholder="Search for Products...">
@@ -284,7 +286,8 @@
 
         <section class="filter_section">
             <div class="container">
-                <div class="div">
+                <div class="input_range">
+                    <p>Price Filter</p>
                     <input type="range">
                 </div>
                 <div class="filter_search">
@@ -297,198 +300,748 @@
 
         <section class="product_status_section">
             <div class="container">
-                <div class="product_status">
-                    <h3>Product Status</h3>
-                    <div class="input_all_checkbox">
-                        <div class="input_checkbox">
-                            <input type="checkbox">
-                            <label for="">On sale</label>
+                <div class="all_shop_item">
+                    <div class="product_status_section_item">
+                        <div class="container">
+                            <div class="product_status">
+                                <h3>Product Status</h3>
+                                <div class="input_all_checkbox">
+                                    <div class="input_checkbox">
+                                        <input type="checkbox">
+                                        <label for="">On sale</label>
+                                    </div>
+                                    <div class="input_checkbox">
+                                        <input type="checkbox">
+                                        <label for="">In Stock</label>
+                                    </div>
+                                </div>
+    
+    
+                            </div>
                         </div>
-                        <div class="input_checkbox">
-                            <input type="checkbox">
-                            <label for="">In Stock</label>
+                        <div class="container">
+                            <div class="categories">
+                                <h3>Categories</h3>
+                                <div class="input_all_categories">
+                                    <div class="input_categories">
+                                        <input type="radio">
+                                        <label for="">Beauty of Skin</label>
+    
+                                    </div>
+                                    <div class="input_categories">
+                                        <input type="radio">
+                                        <label for="">Bags</label>
+    
+                                    </div>
+                                    <div class="input_categories">
+                                        <input type="radio">
+                                        <label for="">Awesome Lip Care</label>
+    
+                                    </div>
+                                    <div class="input_categories">
+                                        <input type="radio">
+                                        <label for="">Mobile Tablets</label>
+    
+                                    </div>
+                                    <div class="input_categories">
+                                        <input type="radio">
+                                        <label for="">Necklaces</label>
+    
+                                    </div>
+                                    <div class="input_categories">
+                                        <input type="radio">
+                                        <label for="">Clothing</label>
+    
+                                    </div>
+                                    <div class="input_categories">
+                                        <input type="radio">
+                                        <label for="">Bluetooth</label>
+    
+                                    </div>
+                                    <div class="input_categories">
+                                        <input type="radio">
+                                        <label for="">Facial Care</label>
+    
+                                    </div>
+                                    <div class="input_categories">
+                                        <input type="radio">
+                                        <label for="">Shoes</label>
+    
+                                    </div>
+                                    <div class="input_categories">
+                                        <input type="radio">
+                                        <label for="">CPU Heat Pipes</label>
+    
+                                    </div>
+                                    <div class="input_categories">
+                                        <input type="radio">
+                                        <label for="">Discover Skincare</label>
+    
+                                    </div>
+                                    <div class="input_categories">
+                                        <input type="radio">
+                                        <label for="">Headphones</label>
+    
+                                    </div>
+                                    <div class="input_categories">
+                                        <input type="radio">
+                                        <label for="">Bracelets</label>
+    
+                                    </div>
+                                    <div class="input_categories">
+                                        <input type="radio">
+                                        <label for="">Smart Watch</label>
+    
+                                    </div>
+                                    <div class="input_categories">
+                                        <input type="radio">
+                                        <label for="">Earrings</label>
+    
+                                    </div>
+                                </div>
+    
+    
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="filter_color">
+                                <h3>Filter by Color</h3>
+                                <div class="input_all_filter_color">
+                                    <div class="input_filter_color">
+                                        <div style="background-color: red;" class="color"></div>
+                                        <label for="">Burning Sand</label>
+    
+                                    </div>
+                                    <div class="input_filter_color">
+                                        <div style="background-color: blue;" class="color"></div>
+                                        <label for="">Antique Brass</label>
+    
+                                    </div>
+                                    <div class="input_filter_color">
+                                        <div style="background-color:purple;" class="color"></div>
+                                        <label for="">Pinkish Tan</label>
+    
+                                    </div>
+                                    <div class="input_filter_color">
+                                        <div style="background-color: peru;" class="color"></div>
+                                        <label for="">Iridium</label>
+    
+                                    </div>
+                                    <div class="input_filter_color">
+                                        <div style="background-color: green;" class="color"></div>
+                                        <label for="">Purply Blue</label>
+    
+                                    </div>
+                                    <div class="input_filter_color">
+                                        <div style="background-color: cyan;" class="color"></div>
+                                        <label for="">Light Grey</label>
+    
+                                    </div>
+                                    <div class="input_filter_color">
+                                        <div style="background-color:darkblue;" class="color"></div>
+                                        <label for="">Baby Pink</label>
+    
+                                    </div>
+                                    <div class="input_filter_color">
+                                        <div style="background-color:hotpink;" class="color"></div>
+                                        <label for="">Bluish Cyan</label>
+    
+                                    </div>
+                                    <div class="input_filter_color">
+                                        <div style="background-color:tomato;" class="color"></div>
+                                        <label for="">Cyan</label>
+    
+                                    </div>
+                                    <div class="input_filter_color">
+                                        <div style="background-color:blueviolet" class="color"></div>
+                                        <label for="">Dark Grey</label>
+    
+                                    </div>
+                                    <div class="input_filter_color">
+                                        <div style="background-color:cadetblue" class="color"></div>
+                                        <label for="">Orange</label>
+    
+                                    </div>
+                                    <div class="input_filter_color">
+                                        <div style="background-color:chartreuse" class="color"></div>
+                                        <label for="">Flame</label>
+    
+                                    </div>
+                                    <div class="input_filter_color">
+                                        <div style="background-color:darkgray" class="color"></div>
+                                        <label for="">Faded Green</label>
+    
+                                    </div>
+                                    <div class="input_filter_color">
+                                        <div style="background-color:bisque" class="color"></div>
+                                        <label for="">Summer Green</label>
+    
+                                    </div>
+                                    <div class="input_filter_color">
+                                        <div style="background-color:orchid" class="color"></div>
+                                        <label for="">Dark Green</label>
+    
+                                    </div>
+                                </div>
+    
+    
+                            </div>
+                        </div>
+                        
+                        <div class="container">
+                            <div class="rated_products ">
+    
+                                <h3>Top Rated Products</h3>
+                                <div class="discount_products_item_card">
+                                    <img src="/Photo/image (9).webp" alt="">
+                                    <div class="discount_products_item_card_description">
+                                        <i class="fa-solid fa-star colorstar"></i>
+                                        <i class="fa-solid fa-star colorstar"></i>
+                                        <i class="fa-solid fa-star colorstar"></i>
+                                        <i class="fa-solid fa-star colorstar"></i>
+                                        <i class="fa-solid fa-star colorstar"></i>
+                                        <h5>Headphones Wireless....</h5>
+                                        <div class="price">
+                                            <span>$120.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discount_products_item_card">
+                                    <img src="/Photo/image (6).webp" alt="">
+                                    <div class="discount_products_item_card_description">
+                                        <i class="fa-solid fa-star colorstar"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <h5>Iphone 14....</h5>
+                                        <div class="price">
+                                            <span>$1199.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discount_products_item_card">
+                                    <img src="/Photo/image (1).webp" alt="">
+                                    <div class="discount_products_item_card_description">
+                                        <i class="fa-solid fa-star colorstar"></i>
+                                        <i class="fa-solid fa-star colorstar"></i>
+                                        <i class="fa-solid fa-star colorstar"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <h5>Apple Watch Sport Ba....</h5>
+                                        <div class="price">
+                                            <span>$449.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="popular_brands">
+                                <h3>Popular Brands</h3>
+                                <div class="brand_logo">
+                                    <img src="/Photo/brand-8.webp" alt="">
+                                    <img src="/Photo/brand-2.webp" alt="">
+                                </div>
+                                <div class="brand_logo2">
+                                    <img src="/Photo/brand-4.webp" alt="">
+                                    <img src="/Photo/brand-8 (1).webp" alt="">
+    
+                                </div>
+                                <div class="brand_logo3">
+                                    <img src="/Photo/brand-4 (1).webp" alt="">
+                                    <img src="/Photo/brand-7.webp" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="reset_filter">
+                                <h3>Filter by Color</h3>
+                                <button>Reset Filter</button>
+                            </div>
+                            
                         </div>
                     </div>
-
-
-                </div>
-            </div>
-            <div class="container">
-                <div class="categories">
-                    <h3>Categories</h3>
-                    <div class="input_all_categories">
-                        <div class="input_categories">
-                            <input type="radio">
-                            <label for="">Beauty of Skin</label>
-                         
+                    <div class="shop_item">
+                        <div class="container">
+                            <div class="shop_item_card">
+    
+                                <div class="card ">
+    
+                                    <img src="/Photo/lip-liner-1.webp" alt="">
+                                    <div class="products_icon">
+                                        <div class="icon_shipping">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+    
+                                        </div>
+                                        <div class="icon_eyes">
+                                            <i class="fa-regular fa-eye"></i>
+    
+                                        </div>
+                                        <div class="icon_heart">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card_description">
+                                        <p class="card_name">beauty of skin,lip liner</p>
+                                        <h4>Grand Plumping Highlighter</h4>
+                                        <i class="fa-solid fa-star colorstar"></i>
+                                        <i class="fa-solid fa-star colorstar"></i>
+                                        <i class="fa-solid fa-star colorstar"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <div class="price">
+                                            <p class="price_line">$57.00 </p>
+                                            <span>$60.00</span>
+                                        </div>
+    
+    
+                                    </div>
+                                </div>
+    
+                                <div class="card ">
+    
+                                    <img src="/Photo/skin-1.webp" alt="">
+                                    <div class="products_icon">
+                                        <div class="icon_shipping">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+    
+                                        </div>
+                                        <div class="icon_eyes">
+                                            <i class="fa-regular fa-eye"></i>
+    
+                                        </div>
+                                        <div class="icon_heart">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card_description">
+                                        <p class="card_name">beauty of skin,skin</p>
+                                        <h4>Mielle Rosemary Mint Scalp</h4>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <div class="price">
+                                            <p class="price_line">$59.52</p>
+                                            <span>$62.00</span>
+                                        </div>
+    
+    
+                                    </div>
+                                </div>
+    
+                                <div class="card ">
+    
+                                    <img src="/Photo/image (7).webp" alt="">
+                                    <div class="products_icon">
+                                        <div class="icon_shipping">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+    
+                                        </div>
+                                        <div class="icon_eyes">
+                                            <i class="fa-regular fa-eye"></i>
+    
+                                        </div>
+                                        <div class="icon_heart">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card_description">
+                                        <p class="card_name">Phone</p>
+                                        <h4>Samsung S22</h4>
+                                        <i class="fa-solid fa-star colorstar"></i>
+                                        <i class="fa-solid fa-star colorstar"></i>
+                                        <i class="fa-solid fa-star colorstar"></i>
+                                        <i class="fa-solid fa-star colorstar"></i>
+                                        <i class="fa-solid fa-star colorstar"></i>
+                                        <span>(0 Review)</span>
+                                        <div class="price">
+                                            <p class="price_line">$800 </p>
+                                            <span>$700.00</span>
+                                        </div>
+    
+    
+                                    </div>
+                                </div>
+    
+                                <div class="card ">
+    
+                                    <img src="/Photo/image (8).webp" alt="">
+                                    <div class="products_icon">
+                                        <div class="icon_shipping">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+    
+                                        </div>
+                                        <div class="icon_eyes">
+                                            <i class="fa-regular fa-eye"></i>
+    
+                                        </div>
+                                        <div class="icon_heart">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card_description">
+                                        <p class="card_name">Headphones,On-Ear</p>
+                                        <h4>Headphone with Mic</h4>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <div class="price">
+                                            <p class="price_line">$251.10 </p>
+                                            <span>$270.00</span>
+                                        </div>
+    
+    
+                                    </div>
+                                </div>
+    
+                                <div class="card ">
+    
+                                    <img src="/Photo/beauty-1.webp" alt="">
+                                    <div class="products_icon">
+                                        <div class="icon_shipping">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+    
+                                        </div>
+                                        <div class="icon_eyes">
+                                            <i class="fa-regular fa-eye"></i>
+    
+                                        </div>
+                                        <div class="icon_heart">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card_description">
+                                        <p class="card_name">facial care,powder</p>
+                                        <h4>Blue Rescue Face Mask</h4>
+                                        <i class="fa-solid fa-star colorstar"></i>
+                                        <i class="fa-solid fa-star colorstar"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    
+                                        <div class="price">
+                                            <p class="price_line">$68.40 </p>
+                                            <span>$72.00</span>
+                                        </div>
+    
+    
+                                    </div>
+                                </div>
+    
+                                <div class="card ">
+    
+                                    <img src="/Photo/earring-1.webp" alt="">
+                                    <div class="products_icon">
+                                        <div class="icon_shipping">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+    
+                                        </div>
+                                        <div class="icon_eyes">
+                                            <i class="fa-regular fa-eye"></i>
+    
+                                        </div>
+                                        <div class="icon_heart">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card_description">
+                                        <p class="card_name">earrings,gold</p>
+                                        <h4>Fortuna Creole Earring</h4>
+                                        <i class="fa-solid fa-star colorstar"></i>
+                                        <i class="fa-solid fa-star colorstar"></i>
+                                        <i class="fa-solid fa-star colorstar"></i>
+                                        <i class="fa-solid fa-star colorstar"></i>
+                                        <i class="fa-solid fa-star colorstar"></i>
+                                       
+                                        <div class="price">
+                                            <span>$180.00</span>
+                                        </div>
+    
+    
+                                    </div>
+                                </div>
+    
+                                <div class="card ">
+    
+                                    <img src="/Photo/cream-1.webp" alt="">
+                                    <div class="products_icon">
+                                        <div class="icon_shipping">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+    
+                                        </div>
+                                        <div class="icon_eyes">
+                                            <i class="fa-regular fa-eye"></i>
+    
+                                        </div>
+                                        <div class="icon_heart">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card_description">
+                                        <p class="card_name">awesome lip care,cream</p>
+                                        <h4>Innisfree Face Wash</h4>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                       
+                                        <div class="price">
+                                            <p class="price_line">$65.96 </p>
+                                            <span>$68.00</span>
+                                        </div>
+    
+    
+                                    </div>
+                                </div>
+                                
+                                <div class="card ">
+    
+                                    <img src="/Photo/shoes-1.webp" alt="">
+                                    <div class="products_icon">
+                                        <div class="icon_shipping">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+    
+                                        </div>
+                                        <div class="icon_eyes">
+                                            <i class="fa-regular fa-eye"></i>
+    
+                                        </div>
+                                        <div class="icon_heart">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card_description">
+                                        <p class="card_name">nike,shoes</p>
+                                        <h4>Nike Retro GTS-2</h4>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <div class="price">
+                                            <p class="price_line">$237.50 </p>
+                                            <span>$250.00</span>
+                                        </div>
+    
+    
+                                    </div>
+                                </div>
+                                
+                                <div class="card ">
+    
+                                    <img src="/Photo/shoes-5.webp" alt="">
+                                    <div class="products_icon">
+                                        <div class="icon_shipping">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+    
+                                        </div>
+                                        <div class="icon_eyes">
+                                            <i class="fa-regular fa-eye"></i>
+    
+                                        </div>
+                                        <div class="icon_heart">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card_description">
+                                        <p class="card_name">shoes,jefferson</p>
+                                        <h4>Jefferson Star Wars™</h4>
+                                        <i class="fa-solid fa-star colorstar"></i>
+                                        <i class="fa-solid fa-star colorstar"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <div class="price">
+                                            <p class="price_line">$251.10</p>
+                                            <span>$270.00 </span>
+                                        </div>
+    
+    
+                                    </div>
+                                </div>
+                                
+                                <div class="card ">
+    
+                                    <img src="/Photo/image (52).webp" alt="">
+                                    <div class="products_icon">
+                                        <div class="icon_shipping">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+    
+                                        </div>
+                                        <div class="icon_eyes">
+                                            <i class="fa-regular fa-eye"></i>
+    
+                                        </div>
+                                        <div class="icon_heart">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card_description">
+                                        <p class="card_name">Headphones</p>
+                                        <h4>Headphones Wireless.</h4>
+                                        <i class="fa-solid fa-star colorstar"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                  
+                                        <div class="price">
+                                            <span>$120.00</span>
+                                        </div>
+    
+    
+                                    </div>
+                                </div>
+                                
+                                <div class="card ">
+    
+                                    <img src="/Photo/image (34).webp" alt="">
+                                    <div class="products_icon">
+                                        <div class="icon_shipping">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+    
+                                        </div>
+                                        <div class="icon_eyes">
+                                            <i class="fa-regular fa-eye"></i>
+    
+                                        </div>
+                                        <div class="icon_heart">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card_description">
+                                        <p class="card_name">Headphones,On-Ear</p>
+                                        <h4>Headphone with Mic</h4>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                
+                                        <div class="price">
+                                            <span>$90.00</span>
+                                        </div>
+    
+    
+                                    </div>
+                                </div>
+                                
+                                <div class="card ">
+    
+                                    <img src="/Photo/image (27).webp" alt="">
+                                    <div class="products_icon">
+                                        <div class="icon_shipping">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+    
+                                        </div>
+                                        <div class="icon_eyes">
+                                            <i class="fa-regular fa-eye"></i>
+    
+                                        </div>
+                                        <div class="icon_heart">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card_description">
+                                        <p class="card_name">Smart Watch</p>
+                                        <h4>Sony Smart Watch</h4>
+                                        <i class="fa-solid fa-star colorstar"></i>
+                                        <i class="fa-solid fa-star colorstar"></i>
+                                        <i class="fa-solid fa-star colorstar"></i>
+                                        <i class="fa-solid fa-star colorstar"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <span>(0 Review)</span>
+                                        <div class="price">
+                                            <p class="price_line">$200 </p>
+                                            <span>$190.00</span>
+                                        </div>
+    
+    
+                                    </div>
+                                </div>
+    
+                            </div>
                         </div>
-                        <div class="input_categories">
-                            <input type="radio">
-                            <label for="">Bags</label>
-                         
-                        </div>
-                        <div class="input_categories">
-                            <input type="radio">
-                            <label for="">Awesome Lip Care</label>
-                      
-                        </div>
-                        <div class="input_categories">
-                            <input type="radio">
-                            <label for="">Mobile Tablets</label>
-                            
-                        </div>
-                        <div class="input_categories">
-                            <input type="radio">
-                            <label for="">Necklaces</label>
-                            
-                        </div>
-                        <div class="input_categories">
-                            <input type="radio">
-                            <label for="">Clothing</label>
-                          
-                        </div>
-                        <div class="input_categories">
-                            <input type="radio">
-                            <label for="">Bluetooth</label>
-                        
-                        </div>
-                        <div class="input_categories">
-                            <input type="radio">
-                            <label for="">Facial Care</label>
-                      
-                        </div>
-                        <div class="input_categories">
-                            <input type="radio">
-                            <label for="">Shoes</label>
-                       
-                        </div>
-                        <div class="input_categories">
-                            <input type="radio">
-                            <label for="">CPU Heat Pipes</label>
-                         
-                        </div>
-                        <div class="input_categories">
-                            <input type="radio">
-                            <label for="">Discover Skincare</label>
-                       
-                        </div>
-                        <div class="input_categories">
-                            <input type="radio">
-                            <label for="">Headphones</label>
-                        
-                        </div>
-                        <div class="input_categories">
-                            <input type="radio">
-                            <label for="">Bracelets</label>
-                         
-                        </div>
-                        <div class="input_categories">
-                            <input type="radio">
-                            <label for="">Smart Watch</label>
-                            
-                        </div>
-                        <div class="input_categories">
-                            <input type="radio">
-                            <label for="">Earrings</label>
-                          
-                        </div>
+    
                     </div>
-
-
                 </div>
             </div>
-            <div class="container">
-                <div class="filter_color">
-                    <h3>Filter by Color</h3>
-                    <div class="input_all_filter_color">
-                        <div class="input_filter_color">
-                            <input type="radio">
-                            <label for="">Burning Sand</label>
-                         
-                        </div>
-                        <div class="input_filter_color">
-                            <input type="radio">
-                            <label for="">Antique Brass</label>
-                         
-                        </div>
-                        <div class="input_filter_color">
-                            <input type="radio">
-                            <label for="">Pinkish Tan</label>
-                      
-                        </div>
-                        <div class="input_filter_color">
-                            <input type="radio">
-                            <label for="">Iridium</label>
-                            
-                        </div>
-                        <div class="input_filter_color">
-                            <input type="radio">
-                            <label for="">Purply Blue</label>
-                            
-                        </div>
-                        <div class="input_filter_color">
-                            <input type="radio">
-                            <label for="">Light Grey</label>
-                          
-                        </div>
-                        <div class="input_filter_color">
-                            <input type="radio">
-                            <label for="">Baby Pink</label>
-                        
-                        </div>
-                        <div class="input_filter_color">
-                            <input type="radio">
-                            <label for="">Bluish Cyan</label>
-                      
-                        </div>
-                        <div class="input_filter_color">
-                            <input type="radio">
-                            <label for="">Cyan</label>
-                       
-                        </div>
-                        <div class="input_filter_color">
-                            <input type="radio">
-                            <label for="">Dark Grey</label>
-                         
-                        </div>
-                        <div class="input_filter_color">
-                            <input type="radio">
-                            <label for="">Orange</label>
-                       
-                        </div>
-                        <div class="input_filter_color">
-                            <input type="radio">
-                            <label for="">Flame</label>
-                        
-                        </div>
-                        <div class="input_filter_color">
-                            <input type="radio">
-                            <label for="">Faded Green</label>
-                         
-                        </div>
-                        <div class="input_filter_color">
-                            <input type="radio">
-                            <label for="">Summer Green</label>
-                            
-                        </div>
-                        <div class="input_filter_color">
-                            <input type="radio">
-                            <label for="">Dark Green</label>
-                          
-                        </div>
-                    </div>
-
-
-                </div>
-            </div>
-
+    
         </section>
-
     </main>
 
+    <footer>
+        <div class="container">
+            <div class="footer_media">
+                <img src="/Photo/logo.414c93a2.svg" alt="">
+                <h3>We are a team of designers and developers that create high quality WordPress</h3>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-vimeo-v"></i>
+            </div>
+
+            <div class="footer_account">
+                <h2>My Account </h2>
+                <ul>
+                    <li>Track Orders</li>
+                    <li>Shipping</li>
+                    <li>Wishlist</li>
+                    <li>My Account</li>
+                    <li>Order History</li>
+                    <li>Returns</li>
+                </ul>
+            </div>
+            <div class="footer_information">
+                <h2>Information</h2>
+                <ul>
+                    <li>Our Story</li>
+
+                    <li>Careers </li>
+
+                    <li>Privacy Policy</li>
+                    <li>Terms & Conditions</li>
+                    <li>Latest News</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="footer_contact">
+                <h2>Talk To Us</h2>
+                <p>Got Questions? Call us</p>
+                <h2>+670 413 90 762</h2>
+                <div class="special_footer">
+                    <h4>shofy@support.com</h4>
+                    <h4>79 Sleepy Hollow St.
+                        Jamaica, New York 1432</h4>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
 
 
 
+    <section class="finish">
+        <div class="container">
+            <div class="finish_item">
+                <div class="finish_item_template">
+                    <p>© 2023 All Rights Reserved | js Template by <span>ThemePure.</span> </p>
+                </div>
+                <div class="finish_photo">
+                    <img src="/Photo/image (23).webp" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
 
 
 
