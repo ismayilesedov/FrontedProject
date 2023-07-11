@@ -53,3 +53,41 @@ selectBtn.addEventListener("click", showSelected);
 function showSelected() {
     selectBox.classList.toggle("selectShow")
 }
+
+
+
+let iconResponsive = document.querySelector(".responsiv_icon");
+let menu = document.querySelector(".responsive_dropdow");
+
+iconResponsive.addEventListener("click", responsiveMenu);
+
+function responsiveMenu() {
+    menu.classList.toggle("d-none")
+}
+
+let homeResponsive = document.querySelector(".responsive_home");
+let dropdownHome = document.querySelector(".dropdown_home")
+let productResponsive = document.querySelector(".responsive_product");
+let dropdownProduct = document.querySelector(".dropdown_product");
+let shopResponsive = document.querySelector(".responsive_shop");
+let dropdownShop = document.querySelector(".dropdown_shop");
+let blogResponsive = document.querySelector(".responsive_blog");
+let dropdownBlog = document.querySelector(".dropdown_blog");
+
+// homeResponsive.addEventListener("click", homeShowNone)
+// function homeShowNone() {
+//     dropdownHome.classList.toggle("d-none")
+// }
+
+
+function showNone(item, itemBox) {
+    item.addEventListener("click", itemShowNone);
+    function itemShowNone() {
+        itemBox.classList.toggle("d-none");
+        
+    }
+}
+showNone(homeResponsive,dropdownHome)
+showNone(productResponsive,dropdownProduct)
+showNone(shopResponsive,dropdownShop);
+showNone(blogResponsive,dropdownBlog)

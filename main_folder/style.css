@@ -31,6 +31,68 @@ body {
     line-height: 26px;
 }
 
+.responsive_navbar .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.responsive_navbar .container i {
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.responsive_navbar {
+    background-color: #0989ff;
+    padding: 1rem;
+    display: none;
+}
+.dropdown_shop a{
+    color: #0989ff;
+}
+.responsive_navbar {
+    position: relative;
+}
+
+.responsive_dropdow_item {
+    text-align: center;
+}
+
+.responsive_dropdow_item li {
+    padding: 1.5rem;
+    cursor: pointer;
+}
+
+.d-none {
+    display: none;
+}
+
+.responsive_dropdow {
+    position: absolute;
+    right: 1rem;
+    background-color: white;
+    z-index: 555;
+    width: 20rem;
+    height: auto;
+}
+
+.responsive_dropdow_item img {
+    width: 15rem;
+    height: 15rem;
+}
+
+.dropdown_product {
+    color: #0989ff;
+}
+
+.dropdown_shop {
+    color: #0989ff;
+}
+
+.dropdown_blog {
+    color: #0989ff;
+}
+
 html {
     font-size: 62.5%;
     overflow-x: hidden;
@@ -1750,6 +1812,9 @@ footer .container {
 }
 
 @media only screen and (max-width:992px) {
+    .responsive_navbar {
+        display: flex;
+    }
 
     .one-time {
         display: none;

@@ -22,7 +22,188 @@ a {
     color: #0e0e0e;
 
 }
+@media only screen and (max-width:992px) {
+    .responsive_navbar {
+        display: flex;
+    }
 
+    .one-time {
+        display: none;
+    }
+
+    .little_bar {
+        display: none;
+    }
+
+    .search_area {
+        display: none;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .popular_item .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10rem;
+
+    }
+
+    .support .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 7rem;
+    }
+
+    .all_products .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 7rem;
+    }
+
+    .featured_card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 7rem;
+    }
+
+    .topSellers_card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 7rem;
+    }
+
+    .advertising {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .advertising_again img {
+        margin-top: 3rem;
+    }
+
+    .today_product_item .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .advertising_description {
+        margin-top: 7rem;
+    }
+
+    .fixed_box {
+        width: 100%;
+    }
+
+    .fixed_box ul button {
+        margin-top: 0rem;
+        margin-right: 1.8rem;
+    }
+
+    .fixed_box img {
+        width: 16rem;
+        left: 16rem;
+    }
+
+    .card_fixed {
+        display: none;
+    }
+
+    .slick_blue {
+        display: none;
+    }
+
+    .discount_all_products .discount_products {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5rem;
+        justify-content: center;
+    }
+
+    .latest_news_card .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .advertising img {
+        height: 15rem;
+    }
+
+    .advertising_description h1 {
+        font-size: 1.5rem;
+
+    }
+
+    .advertising_description {
+
+        width: 25rem;
+        left: 10rem;
+    }
+
+    .advertising_again_description {
+        width: 22rem;
+        bottom: 3rem;
+        left: 3rem;
+    }
+
+    .advertising_again img {
+        width: 32rem;
+
+
+    }
+
+    .advertising_again_description button {
+        margin-top: 0rem;
+    }
+
+    .photo_hover_instagram_item {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+
+@media only screen and(max-width:768px) {}
+
+
+@media only screen and (max-width:576px) {
+    .footer_account {
+        padding: 1rem;
+    }
+
+    .footer_information {
+        padding: 1rem;
+    }
+
+    .footer_contact {
+        padding: 0.5rem;
+    }
+
+    .footer_contact h2 {
+        font-size: 2rem;
+    }
+
+    .special_footer h4 {
+        font-size: 1rem;
+    }
+
+    .special_footer {
+        margin-top: 1rem;
+    }
+
+}
 body {
     font-family: var(--tp-ff-body);
     font-size: 1.4rem;
@@ -117,6 +298,65 @@ html {
     display: flex;
 }
 
+.responsive_navbar .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.responsive_navbar .container i {
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.responsive_navbar {
+    background-color: #0989ff;
+    padding: 1rem;
+    display: none;
+}
+
+.responsive_navbar {
+    position: relative;
+}
+
+.responsive_dropdow_item {
+    text-align: center;
+}
+
+.responsive_dropdow_item li {
+    padding: 1.5rem;
+    cursor: pointer;
+}
+
+.d-none {
+    display: none;
+}
+
+.responsive_dropdow {
+    position: absolute;
+    right: 1rem;
+    background-color: white;
+    z-index: 555;
+    width: 20rem;
+    height: auto;
+}
+
+.responsive_dropdow_item img {
+    width: 15rem;
+    height: 15rem;
+}
+
+.dropdown_product {
+    color: #0989ff;
+}
+
+.dropdown_shop {
+    color: #0989ff;
+}
+
+.dropdown_blog {
+    color: #0989ff;
+}
 
 
 .search_area_input input {

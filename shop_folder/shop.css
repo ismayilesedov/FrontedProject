@@ -11,6 +11,7 @@
 .little_title {
     margin-top: 2rem;
     display: flex;
+    flex-wrap: wrap;
 
 }
 
@@ -26,12 +27,13 @@
 
 .filter_section .container {
     display: flex;
-
+flex-wrap: wrap;
     margin-top: 8rem;
 }
 
 .range-filter {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .filter_section {
@@ -45,6 +47,7 @@
 }
 .filter_description {
     display: flex;
+    flex-wrap: wrap;
 }
 .input_range{
     margin-left: 2.3rem;
@@ -315,4 +318,12 @@ footer .container{
     background-color: #0989ff;
     color: white;
     transition: 0.5s;
+}
+@media only screen and (max-width:992px) {
+    .shop_item_card{
+        display: flex;
+        flex-wrap: wrap;
+    }
+   
+  
 }

@@ -351,3 +351,19 @@ tr {
 footer{
     margin-top: 20rem;
 }
+@media only screen and (max-width:992px) {
+ 
+    .detail_main .container{
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width:890px) {
+    .detail_little_image{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .detail_little_image div{
+        padding: 1rem;
+    }
+   
+}
