@@ -1182,7 +1182,7 @@ html {
 }
 
 .fixed_box {
-    width: 40rem;
+    width: 46rem;
     height: 32rem;
     border: 3px solid #ff3494;
     border-radius: 2rem;
@@ -1195,10 +1195,10 @@ html {
 
 
 .fixed_box img {
-    left: 18rem;
-    width: 19rem;
+    left: 16rem;
+    width: 13rem;
     position: absolute;
-    bottom: 0.1rem;
+    bottom: 5rem;
 
 }
 

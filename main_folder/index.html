@@ -12,10 +12,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="/Photo/small_logo.png" />
-    
+
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
-    
+
     <title>Shofy</title>
 </head>
 
@@ -97,16 +97,19 @@
                     <input type="text" placeholder="Search for Products...">
                     <div class="search_area_input_item">
                         <button class="selected_button">
+                            <span class="selected_changer">
+                                Select Category
+                            </span>
 
-                            Select Category
+
                             <i class="fa-solid fa-chevron-down selected_button_item "></i>
                             <div class="select_catagory">
                                 <ul>
-                                    <li style="font-weight: bold;">Select Category</li>
-                                    <li>Electronics</li>
-                                    <li>Fashion</li>
-                                    <li>Beauty</li>
-                                    <li>Jewelry</li>
+                                    <li class="select_list1" style="font-weight: bold;">Select Category</li>
+                                    <li class="select_list">Electronics</li>
+                                    <li class="select_list">Fashion</li>
+                                    <li class="select_list">Beauty</li>
+                                    <li class="select_list">Jewelry</li>
                                 </ul>
                             </div>
                         </button>
@@ -258,7 +261,9 @@
         <div class="show_detail">
             <div class="show_detail_item">
                 <ul>
-                   <a href="/shop_folder/shop.html"><li>Shop</li></a> 
+                    <a href="/shop_folder/shop.html">
+                        <li>Shop</li>
+                    </a>
                     <li>Right Sidebar</li>
                     <li>Right Sidebar</li>
                 </ul>
@@ -481,276 +486,294 @@
         <section class="all_products " data-aos="fade-up" data-aos-duration="2000" class="navbar_item">
 
             <div class="container">
+                <a href="/detail_folder/detail.html">
+                    <div class="card ">
 
-                <div class="card ">
+                        <img src="/Photo/image (2).webp" alt="">
+                        <div class="products_icon">
+                            <div class="icon_shipping">
+                                <i class="fa-solid fa-cart-shopping"></i>
 
-                    <img src="/Photo/image (2).webp" alt="">
-                    <div class="products_icon">
-                        <div class="icon_shipping">
-                            <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                            <div class="icon_eyes">
+                                <i class="fa-regular fa-eye"></i>
 
+                            </div>
+                            <div class="icon_heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
                         </div>
-                        <div class="icon_eyes">
-                            <i class="fa-regular fa-eye"></i>
-
-                        </div>
-                        <div class="icon_heart">
-                            <i class="fa-regular fa-heart"></i>
-                        </div>
-                    </div>
-                    <div class="card_description">
-                        <p class="card_name">Smart Watch</p>
-                        <h4>Sony Smart Watch</h4>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <span>(0 Review)</span>
-                        <div class="price">
-                            <p class="price_line">$200 </p>
-                            <span>$190.00</span>
-                        </div>
+                        <div class="card_description">
+                            <p class="card_name">Smart Watch</p>
+                            <h4>Sony Smart Watch</h4>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span>(0 Review)</span>
+                            <div class="price">
+                                <p class="price_line">$200 </p>
+                                <span>$190.00</span>
+                            </div>
 
 
-                    </div>
-                </div>
-
-
-                <div class="card ">
-                    <img src="/Photo/image (1).webp" alt="">
-                    <div class="products_icon">
-                        <div class="icon_shipping">
-                            <i class="fa-solid fa-cart-shopping"></i>
-
-                        </div>
-                        <div class="icon_eyes">
-                            <i class="fa-regular fa-eye"></i>
-
-                        </div>
-                        <div class="icon_heart">
-                            <i class="fa-regular fa-heart"></i>
                         </div>
                     </div>
-                    <div class="card_description">
-                        <p class="card_name">Smart Watch</p>
-                        <h4>Apple Watch Sport Band</h4>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star-half-stroke colorstar"></i>
-                        <span>(1 Review)</span>
-                        <div class="price">
-                            <p class="price_line">$449 </p>
-                            <span>$426.55</span>
+                </a>
+
+
+                <a href="/detail_folder/detail.html">
+
+                    <div class="card ">
+                        <img src="/Photo/image (1).webp" alt="">
+                        <div class="products_icon">
+                            <div class="icon_shipping">
+                                <i class="fa-solid fa-cart-shopping"></i>
+
+                            </div>
+                            <div class="icon_eyes">
+                                <i class="fa-regular fa-eye"></i>
+
+                            </div>
+                            <div class="icon_heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
                         </div>
+                        <div class="card_description">
+                            <p class="card_name">Smart Watch</p>
+                            <h4>Apple Watch Sport Band</h4>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star-half-stroke colorstar"></i>
+                            <span>(1 Review)</span>
+                            <div class="price">
+                                <p class="price_line">$449 </p>
+                                <span>$426.55</span>
+                            </div>
 
 
-                    </div>
-                </div>
-
-
-                <div class="card ">
-                    <img src="/Photo/image (10).webp" alt="">
-                    <div class="products_icon">
-                        <div class="icon_shipping">
-                            <i class="fa-solid fa-cart-shopping"></i>
-
-                        </div>
-                        <div class="icon_eyes">
-                            <i class="fa-regular fa-eye"></i>
-
-                        </div>
-                        <div class="icon_heart">
-                            <i class="fa-regular fa-heart"></i>
-                        </div>
-                    </div>
-                    <div class="card_description">
-                        <p class="card_name">Bluetooth</p>
-                        <h4>Lenovo Sports Bluetooth</h4>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <span>(0 Review)</span>
-                        <div class="price">
-                            <p class="price_line">$70 </p>
-                            <span>$66.50</span>
-                        </div>
-
-
-                    </div>
-                </div>
-
-
-                <div class="card ">
-                    <img src="/Photo/image (3).webp" alt="">
-                    <div class="products_icon">
-                        <div class="icon_shipping">
-                            <i class="fa-solid fa-cart-shopping"></i>
-
-                        </div>
-                        <div class="icon_eyes">
-                            <i class="fa-regular fa-eye"></i>
-
-                        </div>
-                        <div class="icon_heart">
-                            <i class="fa-regular fa-heart"></i>
                         </div>
                     </div>
-                    <div class="card_description">
-                        <p class="card_name">Smart Watch</p>
-                        <h4>Sony Lady Fitness Watch</h4>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star-half-stroke colorstar"></i>
-                        <span>(2 Review)</span>
-                        <div class="price">
-                            <p class="price_line">$150 </p>
-                            <span>$145.50</span>
+                </a>
+
+                <a href="/detail_folder/detail.html">
+                    <div class="card ">
+                        <img src="/Photo/image (10).webp" alt="">
+                        <div class="products_icon">
+                            <div class="icon_shipping">
+                                <i class="fa-solid fa-cart-shopping"></i>
+
+                            </div>
+                            <div class="icon_eyes">
+                                <i class="fa-regular fa-eye"></i>
+
+                            </div>
+                            <div class="icon_heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="card_description">
+                            <p class="card_name">Bluetooth</p>
+                            <h4>Lenovo Sports Bluetooth</h4>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span>(0 Review)</span>
+                            <div class="price">
+                                <p class="price_line">$70 </p>
+                                <span>$66.50</span>
+                            </div>
+
+
                         </div>
                     </div>
-                </div>
+                </a>
+
+                <a href="/detail_folder/detail.html">
+                    <div class="card ">
+                        <img src="/Photo/image (3).webp" alt="">
+                        <div class="products_icon">
+                            <div class="icon_shipping">
+                                <i class="fa-solid fa-cart-shopping"></i>
+
+                            </div>
+                            <div class="icon_eyes">
+                                <i class="fa-regular fa-eye"></i>
+
+                            </div>
+                            <div class="icon_heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="card_description">
+                            <p class="card_name">Smart Watch</p>
+                            <h4>Sony Lady Fitness Watch</h4>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star-half-stroke colorstar"></i>
+                            <span>(2 Review)</span>
+                            <div class="price">
+                                <p class="price_line">$150 </p>
+                                <span>$145.50</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+
             </div>
         </section>
 
         <section class="all_products all_products_again" data-aos="fade-up" data-aos-duration="2000"
             class="navbar_item">
             <div class="container">
-                <div class="card ">
-                    <img src="/Photo/image (4).webp" alt="">
-                    <div class="products_icon">
-                        <div class="icon_shipping">
-                            <i class="fa-solid fa-cart-shopping"></i>
+                <a href="/detail_folder/detail.html">
+                    <div class="card ">
+                        <img src="/Photo/image (4).webp" alt="">
+                        <div class="products_icon">
+                            <div class="icon_shipping">
+                                <i class="fa-solid fa-cart-shopping"></i>
 
+                            </div>
+                            <div class="icon_eyes">
+                                <i class="fa-regular fa-eye"></i>
+
+                            </div>
+                            <div class="icon_heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
                         </div>
-                        <div class="icon_eyes">
-                            <i class="fa-regular fa-eye"></i>
-
-                        </div>
-                        <div class="icon_heart">
-                            <i class="fa-regular fa-heart"></i>
-                        </div>
-                    </div>
-                    <div class="card_description">
-                        <p class="card_name">Bluetooth</p>
-                        <h4>Lenovo Wireless Bluetooth</h4>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <span>(2 Review)</span>
-                        <div class="price">
-                            <p class="price_line">$70 </p>
-                            <span>$66.50</span>
-                        </div>
+                        <div class="card_description">
+                            <p class="card_name">Bluetooth</p>
+                            <h4>Lenovo Wireless Bluetooth</h4>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span>(2 Review)</span>
+                            <div class="price">
+                                <p class="price_line">$70 </p>
+                                <span>$66.50</span>
+                            </div>
 
 
-                    </div>
-                </div>
-
-
-                <div class="card ">
-                    <img src="/Photo/image (8).webp" alt="">
-                    <div class="products_icon">
-                        <div class="icon_shipping">
-                            <i class="fa-solid fa-cart-shopping"></i>
-                        </div>
-                        <div class="icon_eyes">
-                            <i class="fa-regular fa-eye"></i>
-
-                        </div>
-                        <div class="icon_heart">
-                            <i class="fa-regular fa-heart"></i>
                         </div>
                     </div>
-                    <div class="card_description">
-                        <p class="card_name">Headphones</p>
-                        <h4>Headphone with Mic</h4>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <span>(0 Review)</span>
-                        <div class="price">
+                </a>
 
-                            <span>$110.00</span>
+                <a href="/detail_folder/detail.html">
+                    <div class="card ">
+                        <img src="/Photo/image (8).webp" alt="">
+                        <div class="products_icon">
+                            <div class="icon_shipping">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                            <div class="icon_eyes">
+                                <i class="fa-regular fa-eye"></i>
+
+                            </div>
+                            <div class="icon_heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
                         </div>
+                        <div class="card_description">
+                            <p class="card_name">Headphones</p>
+                            <h4>Headphone with Mic</h4>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span>(0 Review)</span>
+                            <div class="price">
+
+                                <span>$110.00</span>
+                            </div>
 
 
-                    </div>
-                </div>
-
-
-                <div class="card ">
-                    <img src="/Photo/image (6).webp" alt="">
-                    <div class="products_icon">
-                        <div class="icon_shipping">
-                            <i class="fa-solid fa-cart-shopping"></i>
-
-                        </div>
-                        <div class="icon_eyes">
-                            <i class="fa-regular fa-eye"></i>
-
-                        </div>
-                        <div class="icon_heart">
-                            <i class="fa-regular fa-heart"></i>
-                        </div>
-                    </div>
-                    <div class="card_description">
-                        <p class="card_name">Mobile Tablets</p>
-                        <h4>iPhone 14 Pro</h4>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <span>(0 Review)</span>
-                        <div class="price">
-                            <p class="price_line">$1199 </p>
-                            <span>$1019.15</span>
-                        </div>
-
-
-                    </div>
-                </div>
-
-
-                <div class="card ">
-                    <img src="/Photo/image (12).webp" alt="">
-                    <div class="products_icon">
-                        <div class="icon_shipping">
-                            <i class="fa-solid fa-cart-shopping"></i>
-
-                        </div>
-                        <div class="icon_eyes">
-                            <i class="fa-regular fa-eye"></i>
-
-                        </div>
-                        <div class="icon_heart">
-                            <i class="fa-regular fa-heart"></i>
                         </div>
                     </div>
-                    <div class="card_description">
-                        <p class="card_name">Headphones</p>
-                        <h4>Gaming Headphone</h4>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <span>(2 Review)</span>
-                        <div class="price">
-                            <p class="price_line">$130 </p>
-                            <span>$123.50</span>
+                </a>
+
+
+
+                <a href="/detail_folder/detail.html">
+
+                    <div class="card ">
+                        <img src="/Photo/image (6).webp" alt="">
+                        <div class="products_icon">
+                            <div class="icon_shipping">
+                                <i class="fa-solid fa-cart-shopping"></i>
+
+                            </div>
+                            <div class="icon_eyes">
+                                <i class="fa-regular fa-eye"></i>
+
+                            </div>
+                            <div class="icon_heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="card_description">
+                            <p class="card_name">Mobile Tablets</p>
+                            <h4>iPhone 14 Pro</h4>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <span>(0 Review)</span>
+                            <div class="price">
+                                <p class="price_line">$1199 </p>
+                                <span>$1019.15</span>
+                            </div>
+
+
                         </div>
                     </div>
-                </div>
+                </a>
+
+
+                <a href="/detail_folder/detail.html">
+                    <div class="card ">
+                        <img src="/Photo/image (12).webp" alt="">
+                        <div class="products_icon">
+                            <div class="icon_shipping">
+                                <i class="fa-solid fa-cart-shopping"></i>
+
+                            </div>
+                            <div class="icon_eyes">
+                                <i class="fa-regular fa-eye"></i>
+
+                            </div>
+                            <div class="icon_heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="card_description">
+                            <p class="card_name">Headphones</p>
+                            <h4>Gaming Headphone</h4>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span>(2 Review)</span>
+                            <div class="price">
+                                <p class="price_line">$130 </p>
+                                <span>$123.50</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
 
 
 
@@ -764,134 +787,143 @@
         <!-- Featured  -->
         <div class="container featured featuredblock" data-aos="fade-up" data-aos-duration="2000" class="navbar_item">
             <div class="featured_card">
-                <div class="card ">
-                    <img src="/Photo/image (8).webp" alt="">
-                    <div class="products_icon">
-                        <div class="icon_shipping">
-                            <i class="fa-solid fa-cart-shopping"></i>
+                <a href="/detail_folder/detail.html">
+                    <div class="card ">
+                        <img src="/Photo/image (8).webp" alt="">
+                        <div class="products_icon">
+                            <div class="icon_shipping">
+                                <i class="fa-solid fa-cart-shopping"></i>
 
+                            </div>
+                            <div class="icon_eyes">
+                                <i class="fa-regular fa-eye"></i>
+
+                            </div>
+                            <div class="icon_heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
                         </div>
-                        <div class="icon_eyes">
-                            <i class="fa-regular fa-eye"></i>
+                        <div class="card_description">
+                            <p class="card_name">Headphones</p>
+                            <h4>Headphone with Mic</h4>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span>(1 Review)</span>
+                            <div class="price">
 
-                        </div>
-                        <div class="icon_heart">
-                            <i class="fa-regular fa-heart"></i>
-                        </div>
-                    </div>
-                    <div class="card_description">
-                        <p class="card_name">Headphones</p>
-                        <h4>Headphone with Mic</h4>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <span>(1 Review)</span>
-                        <div class="price">
-
-                            <span>$110.00</span>
-                        </div>
+                                <span>$110.00</span>
+                            </div>
 
 
-                    </div>
-                </div>
-                <div class="card ">
-                    <img src="/Photo/image (6).webp" alt="">
-                    <div class="products_icon">
-                        <div class="icon_shipping">
-                            <i class="fa-solid fa-cart-shopping"></i>
-
-                        </div>
-                        <div class="icon_eyes">
-                            <i class="fa-regular fa-eye"></i>
-
-                        </div>
-                        <div class="icon_heart">
-                            <i class="fa-regular fa-heart"></i>
                         </div>
                     </div>
-                    <div class="card_description">
-                        <p class="card_name">Mobile Tablets</p>
-                        <h4>iPhone 14 Pro</h4>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star-half-stroke colorstar"></i>
-                        <span>(1 Review)</span>
-                        <div class="price">
-                            <p class="price_line">$1199 </p>
-                            <span>$1019.15</span>
+                </a>
+                <a href="/detail_folder/detail.html">
+                    <div class="card ">
+                        <img src="/Photo/image (6).webp" alt="">
+                        <div class="products_icon">
+                            <div class="icon_shipping">
+                                <i class="fa-solid fa-cart-shopping"></i>
+
+                            </div>
+                            <div class="icon_eyes">
+                                <i class="fa-regular fa-eye"></i>
+
+                            </div>
+                            <div class="icon_heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
                         </div>
+                        <div class="card_description">
+                            <p class="card_name">Mobile Tablets</p>
+                            <h4>iPhone 14 Pro</h4>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star-half-stroke colorstar"></i>
+                            <span>(1 Review)</span>
+                            <div class="price">
+                                <p class="price_line">$1199 </p>
+                                <span>$1019.15</span>
+                            </div>
 
 
-                    </div>
-                </div>
-                <div class="card ">
-                    <img src="/Photo/image (5).webp" alt="">
-                    <div class="products_icon">
-                        <div class="icon_shipping">
-                            <i class="fa-solid fa-cart-shopping"></i>
-
-                        </div>
-                        <div class="icon_eyes">
-                            <i class="fa-regular fa-eye"></i>
-
-                        </div>
-                        <div class="icon_heart">
-                            <i class="fa-regular fa-heart"></i>
-                        </div>
-                    </div>
-                    <div class="card_description">
-                        <p class="card_name">Mobile Tablets</p>
-                        <h4>Apple iPad Air</h4>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star-half-stroke colorstar"></i>
-                        <span>(1 Review)</span>
-                        <div class="price">
-                            <p class="price_line">$999 </p>
-                            <span>$949.05</span>
-                        </div>
-
-
-                    </div>
-                </div>
-                <div class="card ">
-                    <img src="/Photo/image (3).webp" alt="">
-                    <div class="products_icon">
-                        <div class="icon_shipping">
-                            <i class="fa-solid fa-cart-shopping"></i>
-
-                        </div>
-                        <div class="icon_eyes">
-                            <i class="fa-regular fa-eye"></i>
-
-                        </div>
-                        <div class="icon_heart">
-                            <i class="fa-regular fa-heart"></i>
                         </div>
                     </div>
-                    <div class="card_description">
-                        <p class="card_name">Smart Watch</p>
-                        <h4>Sony Lady Fitness Watch</h4>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <span>(1 Review)</span>
-                        <div class="price">
-                            <p class="price_line">$150 </p>
-                            <span>$145.50</span>
+                </a>
+                <a href="/detail_folder/detail.html">
+                    <div class="card ">
+                        <img src="/Photo/image (5).webp" alt="">
+                        <div class="products_icon">
+                            <div class="icon_shipping">
+                                <i class="fa-solid fa-cart-shopping"></i>
+
+                            </div>
+                            <div class="icon_eyes">
+                                <i class="fa-regular fa-eye"></i>
+
+                            </div>
+                            <div class="icon_heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
                         </div>
+                        <div class="card_description">
+                            <p class="card_name">Mobile Tablets</p>
+                            <h4>Apple iPad Air</h4>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star-half-stroke colorstar"></i>
+                            <span>(1 Review)</span>
+                            <div class="price">
+                                <p class="price_line">$999 </p>
+                                <span>$949.05</span>
+                            </div>
 
 
+                        </div>
                     </div>
-                </div>
+                </a>
+                <a href="/detail_folder/detail.html">
+                    <div class="card ">
+                        <img src="/Photo/image (3).webp" alt="">
+                        <div class="products_icon">
+                            <div class="icon_shipping">
+                                <i class="fa-solid fa-cart-shopping"></i>
+
+                            </div>
+                            <div class="icon_eyes">
+                                <i class="fa-regular fa-eye"></i>
+
+                            </div>
+                            <div class="icon_heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="card_description">
+                            <p class="card_name">Smart Watch</p>
+                            <h4>Sony Lady Fitness Watch</h4>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span>(1 Review)</span>
+                            <div class="price">
+                                <p class="price_line">$150 </p>
+                                <span>$145.50</span>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </a>
+
             </div>
         </div>
 
@@ -905,134 +937,143 @@
 
         <div class="container TopSellers TopSellers" data-aos="fade-up" data-aos-duration="2000" class="navbar_item">
             <div class="topSellers_card">
-                <div class="card ">
-                    <img src="/Photo/image (12).webp" alt="">
-                    <div class="products_icon">
-                        <div class="icon_shipping">
-                            <i class="fa-solid fa-cart-shopping"></i>
+                <a href="/detail_folder/detail.html">
+                    <div class="card ">
+                        <img src="/Photo/image (12).webp" alt="">
+                        <div class="products_icon">
+                            <div class="icon_shipping">
+                                <i class="fa-solid fa-cart-shopping"></i>
 
-                        </div>
-                        <div class="icon_eyes">
-                            <i class="fa-regular fa-eye"></i>
+                            </div>
+                            <div class="icon_eyes">
+                                <i class="fa-regular fa-eye"></i>
 
+                            </div>
+                            <div class="icon_heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
                         </div>
-                        <div class="icon_heart">
-                            <i class="fa-regular fa-heart"></i>
-                        </div>
-                    </div>
-                    <div class="card_description">
-                        <p class="card_name">Headphones</p>
-                        <h4>Gaming Headphone</h4>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <span>(1 Review)</span>
-                        <div class="price">
-                            <p class="price_line">$130 </p>
-                            <span>$123.50</span>
-                        </div>
+                        <div class="card_description">
+                            <p class="card_name">Headphones</p>
+                            <h4>Gaming Headphone</h4>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span>(1 Review)</span>
+                            <div class="price">
+                                <p class="price_line">$130 </p>
+                                <span>$123.50</span>
+                            </div>
 
 
-                    </div>
-                </div>
-                <div class="card ">
-                    <img src="/Photo/image (9).webp" alt="">
-                    <div class="products_icon">
-                        <div class="icon_shipping">
-                            <i class="fa-solid fa-cart-shopping"></i>
-
-                        </div>
-                        <div class="icon_eyes">
-                            <i class="fa-regular fa-eye"></i>
-
-                        </div>
-                        <div class="icon_heart">
-                            <i class="fa-regular fa-heart"></i>
                         </div>
                     </div>
-                    <div class="card_description">
-                        <p class="card_name">Headphones</p>
-                        <h4>Headphones Wireless</h4>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star-half-stroke colorstar"></i>
-                        <span>(1 Review)</span>
-                        <div class="price">
-                            <p class="price_line">$120 </p>
-                            <span>$103.20/span>
+                </a>
+                <a href="/detail_folder/detail.html">
+                    <div class="card ">
+                        <img src="/Photo/image (9).webp" alt="">
+                        <div class="products_icon">
+                            <div class="icon_shipping">
+                                <i class="fa-solid fa-cart-shopping"></i>
+
+                            </div>
+                            <div class="icon_eyes">
+                                <i class="fa-regular fa-eye"></i>
+
+                            </div>
+                            <div class="icon_heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
                         </div>
+                        <div class="card_description">
+                            <p class="card_name">Headphones</p>
+                            <h4>Headphones Wireless</h4>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star-half-stroke colorstar"></i>
+                            <span>(1 Review)</span>
+                            <div class="price">
+                                <p class="price_line">$120 </p>
+                                <span>$103.20/span>
+                            </div>
 
 
-                    </div>
-                </div>
-                <div class="card ">
-                    <img src="/Photo/image (11).webp" alt="">
-                    <div class="products_icon">
-                        <div class="icon_shipping">
-                            <i class="fa-solid fa-cart-shopping"></i>
-
-                        </div>
-                        <div class="icon_eyes">
-                            <i class="fa-regular fa-eye"></i>
-
-                        </div>
-                        <div class="icon_heart">
-                            <i class="fa-regular fa-heart"></i>
-                        </div>
-                    </div>
-                    <div class="card_description">
-                        <p class="card_name">CPU Heat Pipes</p>
-                        <h4>Antec Air Cooler</h4>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <span>(1 Review)</span>
-                        <div class="price">
-
-                            <span>$80.00</span>
-                        </div>
-
-
-                    </div>
-                </div>
-                <div class="card ">
-                    <img src="/Photo/image (7).webp" alt="">
-                    <div class="products_icon">
-                        <div class="icon_shipping">
-                            <i class="fa-solid fa-cart-shopping"></i>
-
-                        </div>
-                        <div class="icon_eyes">
-                            <i class="fa-regular fa-eye"></i>
-
-                        </div>
-                        <div class="icon_heart">
-                            <i class="fa-regular fa-heart"></i>
                         </div>
                     </div>
-                    <div class="card_description">
-                        <p class="card_name">Mobile Tablets</p>
-                        <h4>iPhone 14 Pro</h4>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star-half-stroke colorstar"></i>
-                        <span>(1 Review)</span>
-                        <div class="price">
-                            <p class="price_line">$1199 </p>
-                            <span>$1019.15</span>
+                </a>
+                <a href="/detail_folder/detail.html">
+                    <div class="card ">
+                        <img src="/Photo/image (11).webp" alt="">
+                        <div class="products_icon">
+                            <div class="icon_shipping">
+                                <i class="fa-solid fa-cart-shopping"></i>
+
+                            </div>
+                            <div class="icon_eyes">
+                                <i class="fa-regular fa-eye"></i>
+
+                            </div>
+                            <div class="icon_heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
                         </div>
+                        <div class="card_description">
+                            <p class="card_name">CPU Heat Pipes</p>
+                            <h4>Antec Air Cooler</h4>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span>(1 Review)</span>
+                            <div class="price">
+
+                                <span>$80.00</span>
+                            </div>
 
 
+                        </div>
                     </div>
-                </div>
+                </a>
+                <a href="/detail_folder/detail.html">
+                    <div class="card ">
+                        <img src="/Photo/image (7).webp" alt="">
+                        <div class="products_icon">
+                            <div class="icon_shipping">
+                                <i class="fa-solid fa-cart-shopping"></i>
+
+                            </div>
+                            <div class="icon_eyes">
+                                <i class="fa-regular fa-eye"></i>
+
+                            </div>
+                            <div class="icon_heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="card_description">
+                            <p class="card_name">Mobile Tablets</p>
+                            <h4>iPhone 14 Pro</h4>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star-half-stroke colorstar"></i>
+                            <span>(1 Review)</span>
+                            <div class="price">
+                                <p class="price_line">$1199 </p>
+                                <span>$1019.15</span>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </a>
+
             </div>
         </div>
 
@@ -1083,107 +1124,115 @@
 
         <section class="today_product_item">
             <div class="container">
-                <div class="card">
-                    <img src="/Photo/image (12).webp" alt="">
-                    <div class="products_icon">
-                        <div class="icon_shipping">
-                            <i class="fa-solid fa-cart-shopping"></i>
+                <a href="/detail_folder/detail.html">
+                    <div class="card">
+                        <img src="/Photo/image (12).webp" alt="">
+                        <div class="products_icon">
+                            <div class="icon_shipping">
+                                <i class="fa-solid fa-cart-shopping"></i>
 
+                            </div>
+                            <div class="icon_eyes">
+                                <i class="fa-regular fa-eye"></i>
+
+                            </div>
+                            <div class="icon_heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
                         </div>
-                        <div class="icon_eyes">
-                            <i class="fa-regular fa-eye"></i>
+                        <div class="card_description">
+                            <p class="card_name">Headphones</p>
+                            <h4>Gaming Headphone</h4>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span>(2 Review)</span>
+                            <div class="price">
+                                <p class="price_line">$130 </p>
+                                <span>$123.50</span>
 
+                            </div>
                         </div>
-                        <div class="icon_heart">
-                            <i class="fa-regular fa-heart"></i>
-                        </div>
-                    </div>
-                    <div class="card_description">
-                        <p class="card_name">Headphones</p>
-                        <h4>Gaming Headphone</h4>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <span>(2 Review)</span>
-                        <div class="price">
-                            <p class="price_line">$130 </p>
-                            <span>$123.50</span>
-
-                        </div>
-                    </div>
-
-                </div>
-
-
-                <div class="card">
-                    <img src="/Photo/image (10).webp" alt="">
-                    <div class="products_icon">
-                        <div class="icon_shipping">
-                            <i class="fa-solid fa-cart-shopping"></i>
-                        </div>
-                        <div class="icon_eyes">
-                            <i class="fa-regular fa-eye"></i>
-
-                        </div>
-                        <div class="icon_heart">
-                            <i class="fa-regular fa-heart"></i>
-                        </div>
-                    </div>
-                    <div class="card_description">
-                        <p class="card_name">Bluetooth</p>
-                        <h4>Lenova Sports bluetooth</h4>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <span>(0 Review)</span>
-
-                        <div class="price">
-                            <p class="price_line">$70 </p>
-                            <span>$66.50</span>
-
-                        </div>
-
 
                     </div>
+                </a>
 
-                </div>
+                <a href="/detail_folder/detail.html">
+                    <div class="card">
+                        <img src="/Photo/image (10).webp" alt="">
+                        <div class="products_icon">
+                            <div class="icon_shipping">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                            <div class="icon_eyes">
+                                <i class="fa-regular fa-eye"></i>
 
+                            </div>
+                            <div class="icon_heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="card_description">
+                            <p class="card_name">Bluetooth</p>
+                            <h4>Lenova Sports bluetooth</h4>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span>(0 Review)</span>
 
-                <div class="card">
-                    <img src="/Photo/image (11).webp" alt="">
-                    <div class="products_icon">
-                        <div class="icon_shipping">
-                            <i class="fa-solid fa-cart-shopping"></i>
+                            <div class="price">
+                                <p class="price_line">$70 </p>
+                                <span>$66.50</span>
+
+                            </div>
+
 
                         </div>
-                        <div class="icon_eyes">
-                            <i class="fa-regular fa-eye"></i>
 
+                    </div>
+                </a>
+
+
+
+                <a href="/detail_folder/detail.html">
+                    <div class="card">
+                        <img src="/Photo/image (11).webp" alt="">
+                        <div class="products_icon">
+                            <div class="icon_shipping">
+                                <i class="fa-solid fa-cart-shopping"></i>
+
+                            </div>
+                            <div class="icon_eyes">
+                                <i class="fa-regular fa-eye"></i>
+
+                            </div>
+                            <div class="icon_heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
                         </div>
-                        <div class="icon_heart">
-                            <i class="fa-regular fa-heart"></i>
+                        <div class="card_description">
+                            <p class="card_name">Cpu Heat Pipes</p>
+                            <h4>Antec Air Cooler</h4>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span>(0 Review)</span>
+                            <div class="price">
+
+                                <span>$80</span>
+
+
+                            </div>
                         </div>
                     </div>
-                    <div class="card_description">
-                        <p class="card_name">Cpu Heat Pipes</p>
-                        <h4>Antec Air Cooler</h4>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <span>(0 Review)</span>
-                        <div class="price">
+                </a>
 
-                            <span>$80</span>
-
-
-                        </div>
-                    </div>
 
         </section>
 
@@ -1217,104 +1266,110 @@
                     <img src="/Photo/image (32).webp" alt="">
 
                 </div>
+                <a href="/detail_folder/detail.html">
+                    <div class="card card_fixed">
+                        <img src="/Photo/image (9).webp" alt="">
+                        <div class="products_icon">
+                            <div class="icon_shipping">
+                                <i class="fa-solid fa-cart-shopping"></i>
 
-                <div class="card card_fixed">
-                    <img src="/Photo/image (9).webp" alt="">
-                    <div class="products_icon">
-                        <div class="icon_shipping">
-                            <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                            <div class="icon_eyes">
+                                <i class="fa-regular fa-eye"></i>
 
+                            </div>
+                            <div class="icon_heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
                         </div>
-                        <div class="icon_eyes">
-                            <i class="fa-regular fa-eye"></i>
+                        <div class="card_description">
+                            <p class="card_name">Headphones</p>
+                            <h4>Headphones Wireless.</h4>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <span>(2 Review)</span>
+                            <div class="price">
+                                <p class="price_line">$120</p>
+                                <span> $103.20</span>
 
-                        </div>
-                        <div class="icon_heart">
-                            <i class="fa-regular fa-heart"></i>
-                        </div>
-                    </div>
-                    <div class="card_description">
-                        <p class="card_name">Headphones</p>
-                        <h4>Headphones Wireless.</h4>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <span>(2 Review)</span>
-                        <div class="price">
-                            <p class="price_line">$120</p>
-                            <span> $103.20</span>
-
-                        </div>
-                    </div>
-
-                </div>
-                <div class="card card_fixed">
-                    <img src="/Photo/image (12).webp" alt="">
-                    <div class="products_icon">
-                        <div class="icon_shipping">
-                            <i class="fa-solid fa-cart-shopping"></i>
-
-                        </div>
-                        <div class="icon_eyes">
-                            <i class="fa-regular fa-eye"></i>
-
-                        </div>
-                        <div class="icon_heart">
-                            <i class="fa-regular fa-heart"></i>
-                        </div>
-                    </div>
-                    <div class="card_description">
-                        <p class="card_name">Headphones</p>
-                        <h4>Gaming Headphone</h4>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <span>(2 Review)</span>
-                        <div class="price">
-                            <p class="price_line">$130 </p>
-                            <span>$123.50</span>
-
-                        </div>
-                    </div>
-
-                </div>
-                <div class="card card_fixed">
-                    <img src="/Photo/image (8).webp" alt="">
-                    <div class="products_icon">
-                        <div class="icon_shipping">
-                            <i class="fa-solid fa-cart-shopping"></i>
-
-                        </div>
-                        <div class="icon_eyes">
-                            <i class="fa-regular fa-eye"></i>
-
-                        </div>
-                        <div class="icon_heart">
-                            <i class="fa-regular fa-heart"></i>
-                        </div>
-                    </div>
-                    <div class="card_description">
-                        <p class="card_name">Headphones</p>
-                        <h4>Headphone with Mic</h4>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <span>(2 Review)</span>
-                        <div class="price">
-                            <p class="price_line">$320 </p>
-                            <span>$110.00</span>
-
+                            </div>
                         </div>
 
                     </div>
+                </a>
+                <a href="/detail_folder/detail.html">
+                    <div class="card card_fixed">
+                        <img src="/Photo/image (12).webp" alt="">
+                        <div class="products_icon">
+                            <div class="icon_shipping">
+                                <i class="fa-solid fa-cart-shopping"></i>
 
-                </div>
+                            </div>
+                            <div class="icon_eyes">
+                                <i class="fa-regular fa-eye"></i>
+
+                            </div>
+                            <div class="icon_heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="card_description">
+                            <p class="card_name">Headphones</p>
+                            <h4>Gaming Headphone</h4>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span>(2 Review)</span>
+                            <div class="price">
+                                <p class="price_line">$130 </p>
+                                <span>$123.50</span>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </a>
+                <a href="/detail_folder/detail.html">
+
+                    <div class="card card_fixed">
+                        <img src="/Photo/image (8).webp" alt="">
+                        <div class="products_icon">
+                            <div class="icon_shipping">
+                                <i class="fa-solid fa-cart-shopping"></i>
+
+                            </div>
+                            <div class="icon_eyes">
+                                <i class="fa-regular fa-eye"></i>
+
+                            </div>
+                            <div class="icon_heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="card_description">
+                            <p class="card_name">Headphones</p>
+                            <h4>Headphone with Mic</h4>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <span>(2 Review)</span>
+                            <div class="price">
+                                <p class="price_line">$320 </p>
+                                <span>$110.00</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </a>
 
 
             </div>
@@ -1326,134 +1381,143 @@
 
         <section class="card_fixed2">
             <div class="container">
-                <div class="card ">
-                    <img src="/Photo/image (7).webp" alt="">
-                    <div class="products_icon">
-                        <div class="icon_shipping">
-                            <i class="fa-solid fa-cart-shopping"></i>
+                <a href="/detail_folder/detail.html">
+                    <div class="card ">
+                        <img src="/Photo/image (7).webp" alt="">
+                        <div class="products_icon">
+                            <div class="icon_shipping">
+                                <i class="fa-solid fa-cart-shopping"></i>
 
-                        </div>
-                        <div class="icon_eyes">
-                            <i class="fa-regular fa-eye"></i>
+                            </div>
+                            <div class="icon_eyes">
+                                <i class="fa-regular fa-eye"></i>
 
+                            </div>
+                            <div class="icon_heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
                         </div>
-                        <div class="icon_heart">
-                            <i class="fa-regular fa-heart"></i>
+                        <div class="card_description">
+                            <p class="card_name">Mobile Tablets</p>
+                            <h4>Galaxy Android Tablet</h4>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <span>(2 Review)</span>
+                            <div class="price">
+                                <p class="price_line">$320 </p>
+                                <span>$288.00</span>
+
+                            </div>
                         </div>
+
                     </div>
-                    <div class="card_description">
-                        <p class="card_name">Mobile Tablets</p>
-                        <h4>Galaxy Android Tablet</h4>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <span>(2 Review)</span>
-                        <div class="price">
-                            <p class="price_line">$320 </p>
-                            <span>$288.00</span>
+                </a>
+                <a href="/detail_folder/detail.html">
+                    <div class="card ">
+                        <img src="/Photo/image (6).webp" alt="">
+                        <div class="products_icon">
+                            <div class="icon_shipping">
+                                <i class="fa-solid fa-cart-shopping"></i>
 
+                            </div>
+                            <div class="icon_eyes">
+                                <i class="fa-regular fa-eye"></i>
+
+                            </div>
+                            <div class="icon_heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
                         </div>
+                        <div class="card_description">
+                            <p class="card_name">Mobile Tablets</p>
+                            <h4>iPhone 14 Pro</h4>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span>(2 Review)</span>
+                            <div class="price">
+                                <p class="price_line">$1199 </p>
+                                <span> $1019.15</span>
+
+                            </div>
+                        </div>
+
                     </div>
+                </a>
+                <a href="/detail_folder/detail.html">
+                    <div class="card ">
+                        <img src="/Photo/image (5).webp" alt="">
+                        <div class="products_icon">
+                            <div class="icon_shipping">
+                                <i class="fa-solid fa-cart-shopping"></i>
 
-                </div>
-                <div class="card ">
-                    <img src="/Photo/image (6).webp" alt="">
-                    <div class="products_icon">
-                        <div class="icon_shipping">
-                            <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                            <div class="icon_eyes">
+                                <i class="fa-regular fa-eye"></i>
 
+                            </div>
+                            <div class="icon_heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
                         </div>
-                        <div class="icon_eyes">
-                            <i class="fa-regular fa-eye"></i>
+                        <div class="card_description">
+                            <p class="card_name">Mobile Tablets</p>
+                            <h4>Apple iPad Air</h4>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <i class="fa-solid fa-star colorstar"></i>
+                            <span>(2 Review)</span>
+                            <div class="price">
+                                <p class="price_line">$999 </p>
+                                <span>$949.05</span>
 
+                            </div>
                         </div>
-                        <div class="icon_heart">
-                            <i class="fa-regular fa-heart"></i>
-                        </div>
+
                     </div>
-                    <div class="card_description">
-                        <p class="card_name">Mobile Tablets</p>
-                        <h4>iPhone 14 Pro</h4>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <span>(2 Review)</span>
-                        <div class="price">
-                            <p class="price_line">$1199 </p>
-                            <span> $1019.15</span>
+                </a>
+                <a href="/detail_folder/detail.html">
+                    <div class="card ">
+                        <img src="/Photo/image (4).webp" alt="">
+                        <div class="products_icon">
+                            <div class="icon_shipping">
+                                <i class="fa-solid fa-cart-shopping"></i>
 
+                            </div>
+                            <div class="icon_eyes">
+                                <i class="fa-regular fa-eye"></i>
+
+                            </div>
+                            <div class="icon_heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
                         </div>
+                        <div class="card_description">
+                            <p class="card_name">Bluetooth</p>
+                            <h4>Lenovo Wireless Bluetooth</h4>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span>(2 Review)</span>
+                            <div class="price">
+                                <p class="price_line">$70 </p>
+                                <span> $66.50</span>
+
+                            </div>
+                        </div>
+
                     </div>
+                </a>
 
-                </div>
-                <div class="card ">
-                    <img src="/Photo/image (5).webp" alt="">
-                    <div class="products_icon">
-                        <div class="icon_shipping">
-                            <i class="fa-solid fa-cart-shopping"></i>
-
-                        </div>
-                        <div class="icon_eyes">
-                            <i class="fa-regular fa-eye"></i>
-
-                        </div>
-                        <div class="icon_heart">
-                            <i class="fa-regular fa-heart"></i>
-                        </div>
-                    </div>
-                    <div class="card_description">
-                        <p class="card_name">Mobile Tablets</p>
-                        <h4>Apple iPad Air</h4>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <i class="fa-solid fa-star colorstar"></i>
-                        <span>(2 Review)</span>
-                        <div class="price">
-                            <p class="price_line">$999 </p>
-                            <span>$949.05</span>
-
-                        </div>
-                    </div>
-
-                </div>
-                <div class="card ">
-                    <img src="/Photo/image (4).webp" alt="">
-                    <div class="products_icon">
-                        <div class="icon_shipping">
-                            <i class="fa-solid fa-cart-shopping"></i>
-
-                        </div>
-                        <div class="icon_eyes">
-                            <i class="fa-regular fa-eye"></i>
-
-                        </div>
-                        <div class="icon_heart">
-                            <i class="fa-regular fa-heart"></i>
-                        </div>
-                    </div>
-                    <div class="card_description">
-                        <p class="card_name">Bluetooth</p>
-                        <h4>Lenovo Wireless Bluetooth</h4>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <span>(2 Review)</span>
-                        <div class="price">
-                            <p class="price_line">$70 </p>
-                            <span> $66.50</span>
-
-                        </div>
-                    </div>
-
-                </div>
             </div>
 
         </section>
@@ -2149,7 +2213,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
         integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <script src="https://kit.fontawesome.com/0c3ac26755.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0c3ac26755.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

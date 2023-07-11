@@ -2,8 +2,12 @@
 
 
 
+
+
 $(".card").hover(function () {
     $(".card").hide("products_icon", 1000)
+
+
 })
 
 
@@ -82,11 +86,11 @@ let blogBox = document.querySelector(".blog_detail")
 let languageBtn = document.querySelector(".language_btn")
 let languageCatagory = document.querySelector(".language_catagory")
 
-let usdBox=document.querySelector(".usd_catagory");
-let usdBtn=document.querySelector(".usd_btn");
+let usdBox = document.querySelector(".usd_catagory");
+let usdBtn = document.querySelector(".usd_btn");
 
-let settingBox=document.querySelector(".setting_catagory");
-let settingBtn=document.querySelector(".setting_btn")
+let settingBox = document.querySelector(".setting_catagory");
+let settingBtn = document.querySelector(".setting_btn")
 
 function all(item, boxes) {
     item.addEventListener("mouseover", show)
@@ -108,9 +112,9 @@ all(homeItem, itemBox);
 all(productItem, productBox);
 all(shopDetailItem, shopDeatilBox);
 all(blogItem, blogBox)
-all(languageBtn,languageCatagory);
-all(usdBtn,usdBox)
-all(settingBtn,settingBox)
+all(languageBtn, languageCatagory);
+all(usdBtn, usdBox)
+all(settingBtn, settingBox)
 
 
 
@@ -122,6 +126,9 @@ selectBtn.addEventListener("click", showSelected);
 function showSelected() {
     selectBox.classList.toggle("selectShow")
 }
+
+
+
 
 
 
