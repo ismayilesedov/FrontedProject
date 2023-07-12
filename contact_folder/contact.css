@@ -1,0 +1,86 @@
+.contact{
+    margin-top: 9rem;
+}
+.contact_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact_title h1{
+    font-size: 3rem;
+}
+.contact_input{
+    margin-top: 10rem;
+}
+.contact_input_description{
+   
+    width: 80rem;
+    height: 40rem;
+}
+.contact_input_description_title h2{
+    margin-left: 14rem;
+    font-size: 2.5rem;
+
+}
+.input_box input{
+    width: 50rem;
+    height: 4rem;
+   
+}
+.input_box div{
+    padding: 3rem;
+}
+.contact_input_item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.image_box div {
+   padding: 3rem;
+}
+.contact_input .container{
+    background-color: white;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.input_box button{
+    width: 15rem;
+    height: 3rem;
+    background-color: black;
+    color: white;
+    margin-left: 3rem;
+}
+.input_box button:hover{
+    background-color:  #0989ff;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+.image_box p{
+    font-size: 1.8rem;
+}
+.image_box p:hover{
+  color: #0989ff;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.image_box_icon i{
+    cursor: pointer;
+ font-size: 2.5rem;
+ padding: 0.5rem;
+ border: 0.5px solid rgb(216, 213, 213);
+}
+.image_box_icon i:hover{
+    background-color: #0989ff;
+    color: white;
+    transition: 0.5s;
+}
+.map_section{
+    margin-top: 10rem;
+}
+.map{
+    width: 100%;
+    height: 35rem;
+}
+footer{
+    margin-top: 25rem;
+}

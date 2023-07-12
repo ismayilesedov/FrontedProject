@@ -161,6 +161,10 @@ input {
 .eye_icon_btn i{
     font-size: 1.5rem
 }
-color{
-    color: #ff512f;
+@media only screen and (max-width:992px) {
+    .shape:first-child{
+        left: -90px;
+        top: -50px;
+    }
+   
 }

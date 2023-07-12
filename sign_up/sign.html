@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/common_folder/common.css">
+    <link rel="stylesheet" href="/main_folder/style.css">
     <script src="/common_folder/common.js" defer></script>
     <link rel="stylesheet" href="sign.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <div class="little_bar">
@@ -127,9 +130,9 @@
         <div class="responsive_navbar">
             <div class="container">
                 <div class="responsive_title">
-                  
+
                     <h1>Shopy</h1>
-               
+
                 </div>
                 <div class="responsive_menu_icon">
                     <i class="fa-solid fa-bars responsiv_icon"></i>
@@ -145,8 +148,8 @@
                             Home
                             <i class="fa-solid fa-chevron-down departments_icon "></i>
                         </p>
-                        
-                      
+
+
                         <ul class="dropdown_home d-none">
                             <li><img src="/Photo/image (54).webp" alt=""></li>
                             <li><img src="/Photo/image (55).webp" alt=""></li>
@@ -158,7 +161,7 @@
                             Product
                             <i class="fa-solid fa-chevron-down departments_icon "></i>
                         </p>
-                       
+
                         <ul class="dropdown_product d-none">
                             <li>Shop</li>
                             <li>Right Sidebar</li>
@@ -173,11 +176,11 @@
                             Shop
                             <i class="fa-solid fa-chevron-down departments_icon "></i>
                         </p>
-                        
+
                         <ul class="dropdown_shop d-none">
                             <a href="/shop_folder/shop.html">
-                            <li>Shop Cart</li>
-                        </a>
+                                <li>Shop Cart</li>
+                            </a>
                             <li>Compare</li>
                             <li>WishList</li>
                             <li>CheckOut</li>
@@ -190,7 +193,7 @@
                             Blog
                             <i class="fa-solid fa-chevron-down departments_icon "></i>
                         </p>
-                      
+
                         <ul class="dropdown_blog d-none">
                             <li>Blog Standart</li>
                             <li>Blog Grid</li>
@@ -199,7 +202,9 @@
                         </ul>
                     </li>
                     <li class="dropdown_contact ">
-                        Contact
+                        <a href="/contact_folder/contact.html">
+                            Contact
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -322,62 +327,63 @@
             </div>
 
         </div>
-    <div class="container2">
-        <div class="title">Registration</div>
-        <div class="content">
-          <form action="#">
-            <div class="user-details">
-              <div class="input-box">
-                <span class="details">Full Name</span>
-                <input type="text" placeholder="Enter your name" required>
-              </div>
-              <div class="input-box">
-                <span class="details">Username</span>
-                <input type="text" placeholder="Enter your username" required>
-              </div>
-              <div class="input-box">
-                <span class="details">Email</span>
-                <input type="text" placeholder="Enter your email" required>
-              </div>
-              <div class="input-box">
-                <span class="details">Phone Number</span>
-                <input type="text" placeholder="Enter your number" required>
-              </div>
-              <div class="input-box">
-                <span class="details">Password</span>
-                <input type="text" placeholder="Enter your password" required>
-              </div>
-              <div class="input-box">
-                <span class="details">Confirm Password</span>
-                <input type="text" placeholder="Confirm your password" required>
-              </div>
+        <div class="container2">
+            <div class="title">Registration</div>
+            <div class="content">
+                <form action="#">
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">Full Name</span>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Username</span>
+                            <input type="text" placeholder="Enter your username" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Email</span>
+                            <input type="text" placeholder="Enter your email" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Phone Number</span>
+                            <input type="text" placeholder="Enter your number" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Password</span>
+                            <input type="text" placeholder="Enter your password" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Confirm Password</span>
+                            <input type="text" placeholder="Confirm your password" required>
+                        </div>
+                    </div>
+                    <div class="gender-details">
+                        <input type="radio" name="gender" id="dot-1">
+                        <input type="radio" name="gender" id="dot-2">
+                        <input type="radio" name="gender" id="dot-3">
+                        <span class="gender-title">Gender</span>
+                        <div class="category">
+                            <label for="dot-1">
+                                <span class="dot one"></span>
+                                <span class="gender">Male</span>
+                            </label>
+                            <label for="dot-2">
+                                <span class="dot two"></span>
+                                <span class="gender">Female</span>
+                            </label>
+                            <label for="dot-3">
+                                <span class="dot three"></span>
+                                <span class="gender">Prefer not to say</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <input type="submit" value="Register">
+                    </div>
+                </form>
             </div>
-            <div class="gender-details">
-              <input type="radio" name="gender" id="dot-1">
-              <input type="radio" name="gender" id="dot-2">
-              <input type="radio" name="gender" id="dot-3">
-              <span class="gender-title">Gender</span>
-              <div class="category">
-                <label for="dot-1">
-                <span class="dot one"></span>
-                <span class="gender">Male</span>
-              </label>
-              <label for="dot-2">
-                <span class="dot two"></span>
-                <span class="gender">Female</span>
-              </label>
-              <label for="dot-3">
-                <span class="dot three"></span>
-                <span class="gender">Prefer not to say</span>
-                </label>
-              </div>
-            </div>
-            <div class="button">
-              <input type="submit" value="Register">
-            </div>
-          </form>
         </div>
-      </div>
-      <script src="https://kit.fontawesome.com/0c3ac26755.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/0c3ac26755.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

@@ -129,6 +129,7 @@ form .button input:hover {
 @media(max-width: 584px) {
     .container2 {
         max-width: 100%;
+       
     }
 
     form .user-details .input-box {
@@ -148,6 +149,13 @@ form .button input:hover {
     .user-details::-webkit-scrollbar {
         width: 5px;
     }
+    .content form .user-details {
+        /* display: flex;
+        flex-wrap: wrap; */
+        justify-content: center;
+        /* margin: 20px 0 12px 0; */
+    }
+    
 }
 
 @media(max-width: 459px) {
