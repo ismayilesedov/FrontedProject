@@ -6,14 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/common_folder/common.css">
-    <link rel="stylesheet" href="/main_folder/style.css">
     <script src="/common_folder/common.js" defer></script>
-    <link rel="stylesheet" href="sign.css">
+    <link rel="stylesheet" href="/main_folder/index.html">
+    <!-- <script src="/main_folder/script.js" defer></script> -->
+    <link rel="stylesheet" href="/main_folder/style.css">
+    <link rel="stylesheet" href="basket.css">
+    <script src="basket.js" defer></script>
     <title>Document</title>
 </head>
 
 <body>
+
     <header>
+
         <div class="little_bar">
             <div class="container">
                 <div class="little_bar_title">
@@ -89,16 +94,19 @@
                     <input type="text" placeholder="Search for Products...">
                     <div class="search_area_input_item">
                         <button class="selected_button">
+                            <span class="selected_changer">
+                                Select Category
+                            </span>
 
-                            Select Category
+
                             <i class="fa-solid fa-chevron-down selected_button_item "></i>
                             <div class="select_catagory">
                                 <ul>
-                                    <li style="font-weight: bold;">Select Category</li>
-                                    <li>Electronics</li>
-                                    <li>Fashion</li>
-                                    <li>Beauty</li>
-                                    <li>Jewelry</li>
+                                    <li class="select_list1" style="font-weight: bold;">Select Category</li>
+                                    <li class="select_list">Electronics</li>
+                                    <li class="select_list">Fashion</li>
+                                    <li class="select_list">Beauty</li>
+                                    <li class="select_list">Jewelry</li>
                                 </ul>
                             </div>
                         </button>
@@ -121,12 +129,19 @@
                             <i class="fa-solid fa-arrow-down"></i>
                         </div>
                         <i class="fa-regular fa-heart"></i>
+                        <div class="basket_count">
+                            <p>0</p>
+                        </div>
                         <i class="fa-solid fa-bag-shopping"></i>
-                    </div>
 
+                    </div>
                 </div>
+
+
             </div>
         </div>
+        </div>
+
         <div class="responsive_navbar">
             <div class="container">
                 <div class="responsive_title">
@@ -141,7 +156,9 @@
         </div>
         <div class="responsive_dropdow d-none">
             <div class="responsive_dropdow_item">
+
                 <img src="/Photo/logo.414c93a2.svg" alt="">
+
                 <ul>
                     <li>
                         <p class="responsive_home">
@@ -202,15 +219,15 @@
                         </ul>
                     </li>
                     <li class="dropdown_contact ">
-                        <a href="/contact_folder/contact.html">
-                            Contact
-                        </a>
+
+                        Contact
+
                     </li>
                 </ul>
             </div>
         </div>
-
         <div class="navbar">
+
             <div class="container">
                 <div data-aos="fade-up" data-aos-duration="2000" class="navbar_item">
 
@@ -241,7 +258,9 @@
                             <i class="fa-solid fa-chevron-down "></i>
                         </li>
                         <li class="contact">
-                            Contact
+                            <a href="/contact_folder/contact.html">
+                                Contact
+                            </a>
                         </li>
 
                     </ul>
@@ -327,64 +346,60 @@
             </div>
 
         </div>
-        <div class="container2">
-            <div class="title">Registration</div>
-            <div class="content">
-                <form action="#">
-                    <div class="user-details">
-                        <div class="input-box">
-                            <span class="details">Full Name</span>
-                            <input type="text" placeholder="Enter your name" required>
-                        </div>
-                        <div class="input-box">
-                            <span class="details">Username</span>
-                            <input type="text" placeholder="Enter your username" required>
-                        </div>
-                        <div class="input-box">
-                            <span class="details">Email</span>
-                            <input type="text" placeholder="Enter your email" required>
-                        </div>
-                        <div class="input-box">
-                            <span class="details">Phone Number</span>
-                            <input type="text" placeholder="Enter your number" required>
-                        </div>
-                        <div class="input-box">
-                            <span class="details">Password</span>
-                            <input type="text" placeholder="Enter your password" required>
-                        </div>
-                        <div class="input-box">
-                            <span class="details">Confirm Password</span>
-                            <input type="text" placeholder="Confirm your password" required>
-                        </div>
-                    </div>
-                    <div class="gender-details">
-                        <input type="radio" name="gender" id="dot-1">
-                        <input type="radio" name="gender" id="dot-2">
-                        <input type="radio" name="gender" id="dot-3">
-                        <span class="gender-title">Gender</span>
-                        <div class="category">
-                            <label for="dot-1">
-                                <span class="dot one"></span>
-                                <span class="gender">Male</span>
-                            </label>
-                            <label for="dot-2">
-                                <span class="dot two"></span>
-                                <span class="gender">Female</span>
-                            </label>
-                            <label for="dot-3">
-                                <span class="dot three"></span>
-                                <span class="gender">Prefer not to say</span>
-                            </label>
-                        </div>
-                    </div>
-                    <div class="button">
-                        <input type="submit" value="Register">
-                    </div>
-                </form>
+
+        <div class="show_detail">
+            <div class="show_detail_item">
+                <ul>
+                    <a href="/shop_folder/shop.html">
+                        <li>Shop</li>
+                    </a>
+                    <li>Right Sidebar</li>
+                    <li>Right Sidebar</li>
+                </ul>
             </div>
         </div>
+
+        <div class="blog_detail">
+            <div class="blog_detail_item">
+                <ul>
+                    <li>Blog Standard</li>
+                    <li>Blog Grid</li>
+                    <li>Blog List</li>
+                    <li>Blog Details</li>
+                    <li>Blog Details Full Width</li>
+                </ul>
+            </div>
+        </div>
+
+        <section class="basket_product">
+          
+            <div class="container">
+                <h1 class="total"></h1>
+                <div id="basket_product_description" class="basket_product_description">
+
+                </div>
+            </div>
+        </section>
+
     </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <script src="https://kit.fontawesome.com/0c3ac26755.js" crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>

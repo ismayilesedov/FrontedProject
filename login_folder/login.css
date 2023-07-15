@@ -6,7 +6,9 @@
     left: 50%;
     top: 70%;
 }
-
+.search_area_input input {
+    height: 4rem;
+}
 .background .shape {
     height: 200px;
     width: 200px;

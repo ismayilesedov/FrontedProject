@@ -46,10 +46,14 @@ body {
     background-color: #0989ff;
     padding: 1rem;
     display: none;
+    left: '250px';
+
 }
-.dropdown_shop a{
+
+.dropdown_shop a {
     color: #0989ff;
 }
+
 .responsive_navbar {
     position: relative;
 }
@@ -177,13 +181,37 @@ html {
     margin-right: 2rem;
 
 }
-
+.salam{
+    z-index: 666;
+}
 .search_area_item {
     display: flex;
 }
 
-
-
+#demo{
+    font-size: 2rem;
+    margin-left: 6rem;
+    margin-top: 1.6rem;
+    border: 0.5px solid grey;
+    display: inline;
+    padding: 0.5rem;
+}
+#demo2 {
+    font-size: 2rem;
+    margin-left: 6rem;
+    margin-top: 1em;
+    border: 0.5px solid grey;
+    display: inline;
+    padding: 0.5rem;
+}
+#demo3{
+    font-size: 2rem;
+    margin-left: 6rem;
+    margin-top: 1rem;
+    border: 0.5px solid grey;
+    display: inline;
+    padding: 0.5rem;
+}
 .search_area_input input {
     width: 32rem;
     height: 5rem;
@@ -191,9 +219,6 @@ html {
     font-size: 1.5rem;
     margin-left: 2rem;
     outline: none;
-
-
-
 }
 
 .search_area_input input:focus::placeholder {
@@ -1078,9 +1103,42 @@ html {
     margin-left: 3rem;
 }
 
+.search_area_basket {
+    position: relative;
+}
+
+.basket_area_item {
+    display: flex;
+
+}
+
+.basket_area_item img {
+    width: 10rem;
+    height: 10rem;
+}
+
+
+
+.basket_count {
+    position: absolute;
+    left: 9.5rem;
+    bottom: 1.7rem;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+
+    background-color: #fd4b6b;
+    font-weight: bold;
+}
+
+.basket_count p {
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+}
+
 .price_line {
     text-decoration: line-through;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin-top: 0.2rem;
 
 }
@@ -1107,6 +1165,7 @@ html {
 .price span {
     color: #0989ff;
     font-weight: bold;
+    font-size: 1.8rem;
 }
 
 .card_name {
@@ -1244,7 +1303,7 @@ html {
 }
 
 .fixed_box {
-    width: 46rem;
+    width: 44rem;
     height: 32rem;
     border: 3px solid #ff3494;
     border-radius: 2rem;
@@ -1257,8 +1316,8 @@ html {
 
 
 .fixed_box img {
-    left: 16rem;
-    width: 13rem;
+    left: 22rem;
+    width: 15rem;
     position: absolute;
     bottom: 5rem;
 
@@ -1796,6 +1855,14 @@ footer .container {
     cursor: pointer;
 }
 
+.responsive_title h1 {
+    color: white;
+}
+
+.responsive_menu_icon i {
+    color: white;
+}
+
 .finish {
     margin-top: 15rem;
 }
@@ -1814,7 +1881,10 @@ footer .container {
 @media only screen and (max-width:992px) {
     .responsive_navbar {
         display: flex;
+        
     }
+
+
 
     .one-time {
         display: none;
@@ -1964,7 +2034,19 @@ footer .container {
 }
 
 
-@media only screen and(max-width:768px) {}
+@media only screen and (max-width:768px) {
+    .products_type {
+        padding: 0.6rem;
+    }
+
+    .today_product #demo {
+        padding: 0.6rem;
+    }
+
+    .latest_news_title {
+        padding: 0.6rem;
+    }
+}
 
 
 @media only screen and (max-width:576px) {
@@ -1991,5 +2073,6 @@ footer .container {
     .special_footer {
         margin-top: 1rem;
     }
+
 
 }

@@ -332,6 +332,7 @@ tr {
 .detail_input_box input{
     width: 30rem;
     height: 4rem;
+    padding: 1rem;
 }
 .detail_input_box div{
     padding: 2rem;

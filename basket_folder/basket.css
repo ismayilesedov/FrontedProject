@@ -1,0 +1,30 @@
+.basket_photo {
+    width: 15rem;
+    height: 15rem;
+}
+
+.basket_style {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    border-bottom: 1px solid black
+}
+
+.basket_description {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15rem;
+}
+.count-changer{
+    padding: 0.5rem;
+    cursor: pointer;
+    border: none;
+}
+.count-changer:hover{
+transition: 0.5s;
+background-color: aqua;
+}
+.basket_item_count input{
+    width: 3rem;
+}
