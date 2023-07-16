@@ -27,17 +27,17 @@ function handleRenderCartItem() {
         basket_newpages.innerHTML += `
     
         <div class="container basket_style">
-        <p>Id:${item.currentProduct.id}</p>
-        <img class="basket_photo" src="${item.currentProduct.img}" alt="">
+        <p>Id:${item.id}</p>
+        <img class="basket_photo" src="${item.img}" alt="">
         <div class="basket_description">
-            <h5>${item.currentProduct.name}</h5>
-            <p>${item.currentProduct.price}$</p>
+            <h5>${item.name}</h5>
+            <p>${item.price}$</p>
 
         </div>
          <div class="basket_item_count">
-            <button onclick="handleChangeCount("plus",${item.id})" class="count-changer" >-</button>
-          <input type="text"value=1>
-            <button onclick="handleChangeCount("minus",${item.id})" class="count-changer">+</button>
+            <button onclick="decreaseValue(event,${item.id})" class="count-changer" >-</button>
+            <input type="text" value=${item.count ? item.count : 1} />
+            <button onclick="increaseValue(event,${item.id})" class="count-changer">+</button>
         </div>
 
     </div>
@@ -56,31 +56,50 @@ function getBasketCount() {
 getBasketCount()
 
 
-function handleChangeCount(action, id) {
+// function handleChangeCount(action, id) {
     
-    cartItems = cartItems.map((item => {
-        let oldCount = item.count;
-        if (item.id === id) {
-            if (action === 'minus') {
-                if (item.count > 1) {
-                    oldCount--;
-                }
+//     cartItems = cartItems.map((item => {
+//         let oldCount = item.count;
+//         if (item.id === id) {
+//             if (action === 'minus') {
+//                 if (item.count > 1) {
+//                     oldCount--;
+//                 }
 
-            } else {
-                console.log(oldCount);
-                oldCount++;
-                cartNumbers(products[i])
-                console.log(oldCount);
-            }
-        }
+//             } else {
+//                 console.log(oldCount);
+//                 oldCount++;
+//                 cartNumbers(products[i])
+//                 console.log(oldCount);
+//             }
+//         }
 
-        return {
-            ...item,
-            count: oldCount,
-        }
+//         return {
+//             ...item,
+//             count: oldCount,
+//         }
 
-    }))
+//     }))
 
-    upload()
+//     upload()
 
+// }
+
+function decreaseValue(e,id) {
+    let input = e.target.nextElementSibling;
+    let item = cartItems.find(x => x.id == id);
+    console.log(item);
+    if (input.value > 1) {
+        input.value--;
+        item.count--;
+        localStorage.setItem('cart',JSON.stringify(cartItems));
+    }
 }
+function increaseValue(e,id) {
+    let input = e.target.previousElementSibling;
+    input.value++;
+    let item = cartItems.find(x => x.id == id);
+    item.count++;
+    localStorage.setItem('cart',JSON.stringify(cartItems));
+}
+

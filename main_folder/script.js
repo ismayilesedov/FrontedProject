@@ -305,7 +305,7 @@ let cartsBtn = document.querySelectorAll(".btn");
 
 function addtoCart(productId) {
     let currentProduct = product.find((x) => x.id == productId)
-    cartItems.push({ currentProduct })
+    cartItems.push({...currentProduct,count:1})
     localStorage.setItem("cart", JSON.stringify(cartItems));
     cartNumbers();
 }
